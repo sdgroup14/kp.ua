@@ -1,0 +1,190 @@
+.study-s2 {
+  @extend .study;
+
+  .container {
+    overflow: visible;
+  }
+  .content-wrapper {
+    width: 100%;
+        margin-top: -5vw;
+  }
+
+  h2 {
+    @extend %Alig;
+    color: #000000;
+    font-size: 77px;
+    font-weight: 300;
+    margin-bottom: 68px;
+    text-transform: none;
+  }
+
+  .study-problems {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  svg {
+    position: absolute;
+    left: -33px;
+    top: 5px;
+    width: 14px;
+    height: 19px;
+    fill: #cccccc;
+  }
+
+  .study-problems-item {
+    position: relative;
+    @extend %Amed;
+    color: #000000;
+    font-size: 20px;
+    line-height: 24px;
+    width: 44%;
+    margin-bottom: 34px;
+
+    &:nth-child(7),
+    &:nth-child(8) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .study-s2 {
+    .content-wrapper {
+      width: 90%;
+    }
+
+    h2 {
+      margin-bottom: 40px;
+    }
+
+    .study-problems-item {
+      font-size: 16px;
+      margin-bottom: 24px;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+
+  .study-s2 {
+    background-color: #ffffff;
+    min-height: 100vh;
+    height: auto;
+        padding: 56px 86px 95px;
+    .container {
+      justify-content: flex-start;
+      margin: 0 auto;
+      max-width: 768px;
+    }
+    .content-wrapper {
+      padding-left: 0;
+      margin-left: 0;
+          width: 85%;
+          margin-top: 0;
+    }
+
+    h2 {
+      margin-bottom: 63px;
+    }
+
+    .study-problems {
+      flex-direction: column;
+      padding-left: 0;
+    }
+    svg {
+      &:after {
+        content: '';
+        oreder: 0;
+      }
+    }
+
+    .study-problems-item {
+      font-size: 20px;
+      width: 100%;
+      margin-bottom: 40px!important;
+
+      &:nth-child(7),
+      &:nth-child(8) {
+        margin-bottom: 40px;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .study-problems-item-1 {
+      order: 1;
+    }
+
+    .study-problems-item-3 {
+      order: 2;
+    }
+
+    .study-problems-item-5 {
+      order: 3;
+    }
+
+    .study-problems-item-7 {
+      order: 4;
+    }
+
+
+    .study-problems-item-2 {
+      order: 5;
+    }
+    .study-problems-item-4 {
+      order: 6;
+    }
+
+    .study-problems-item-6 {
+      order: 7;
+    }
+    .study-problems-item-8 {
+      order: 8;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .study-s2 {
+        padding: 10vw 0;
+        min-height: auto;
+        max-height: none;
+        height: auto;
+    .content-wrapper {
+      width: 100%;
+      padding-left: 12.5vw;
+          padding-right: 5.5vw;
+      margin-left: 0;
+    }
+
+    h2 {
+      font-size: 11.7vw;
+      margin-bottom: 4.2vw;
+    }
+
+    .study-problems {
+      padding-left: 0;
+    }
+    svg {
+      left: -8vw;
+      top: 0px;
+      width: 3.89vw;
+      height: 5.3vw;
+    }
+
+    .study-problems-item {
+      font-size: 3.9vw;
+          line-height: 5.45vw;
+      margin-bottom: 4.5vw!important;
+    }
+
+    .study-problems-item:nth-child(7) {
+      margin-bottom: 4.5vw;
+    }
+  }
+}

@@ -1,0 +1,136 @@
+.our-team-s3 {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 1200px;
+  }
+
+  .our-team-s3-common {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .our-team-s3-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+  }
+  .our-team-s3-right {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+  }
+
+
+  h2 {
+    @extend %Alig;
+    color: #000000;
+    font-size: 77px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    text-transform: none;
+  }
+
+  h3 {
+    @extend %Abold;
+    color: #000000;
+    font-size: 37px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+
+  .place {
+    @extend %Amed;
+    color: #b2b2b2;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  .vacancy-txt {
+    color: #000000;
+    @extend %Amed;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    margin-bottom: 25px;
+  }
+
+  .section-btn-wrapper {
+    width: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .our-works-item-link {
+    @extend %button;
+    display: block;
+    padding: 0;
+    text-align: center;
+    width: 99%;
+    box-sizing: content-box;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+
+  .our-team-s3 {
+
+    .container {
+      max-width: 755px;
+      padding: 20px 20px 80px 20px;
+    }
+
+    .our-team-s3-common {
+      display: block;
+    }
+
+    .our-team-s3-left {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+  .our-team-s3 {
+    .container {
+      padding: 20px 20px 50px 20px;
+    }
+
+
+    h2 {
+      font-size: 32px;
+      margin-bottom: 36px;
+    }
+
+    h3 {
+      font-size: 24px;
+    }
+
+    .place {
+      font-size: 16px;
+    }
+
+    .vacancy-txt {
+      font-size: 16px;
+      line-height: 22px;
+    }
+
+
+    .our-works-item-link {
+      font-size: 15px;
+    }
+  }
+}

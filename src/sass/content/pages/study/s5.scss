@@ -1,0 +1,215 @@
+.study-s5 {
+  @extend .study-s4;
+
+  .study-img-wrapper {
+    width: 60vw;
+    right: 0;
+    z-index: 99;
+    align-items: center;
+
+    img {
+      display: block;
+    }
+  }
+
+  .media-container {
+    position: relative;
+    width: 18.7vw;
+    height: auto;
+    margin: 0 auto;
+    transform: translateX(15%);
+  }
+
+  .video {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 10.345%;
+    left: 5.58%;
+    right: 5.58%;
+    z-index: 100;
+  }
+
+  .video-source {
+    width: 100%;
+  }
+
+  .video-manipulation-wrapper {
+    position: absolute;
+    top: 3.8vw;
+    left: 1vw;
+    bottom: 3.6vw;
+    right: 10px;
+    font-size: 28px;
+    z-index: 109;
+    color: #ffffff;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, .55);
+    padding: 5px 8px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .15s linear;
+    cursor: pointer;
+
+    &.active {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+  .video-manipulation {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .35);
+    z-index: 110;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+      width: 25px;
+      height: 25px;
+      fill: #E9E9E9;
+      opacity: 0.6;
+    }
+  }
+
+  .img-common {
+    width: 38.8vw;
+    img {
+      width: 38.8vw;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .study-s5 {
+    background-color: #000000;
+    padding: 102px 50px 40px;
+
+    .study-img-wrapper {
+      order: 1;
+    }
+    .tablet-img {
+      width: 718px;
+      height: 527px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: -50px;
+      z-index: 0;
+      padding-left: 0;
+      background-image: url(../img/dot_grey.png);
+      background-repeat: repeat;
+      background-size: 30px 30px;
+      margin-bottom: 30px;
+
+      img {
+        transform: translateY(-65px);
+        margin: 0 auto;
+        width: 245px;
+      }
+    }
+    .img-common {
+      width: 718px;
+      img {
+        width: 558px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .study-s5 {
+    padding: 0vw 0 1vw;
+    .content-wrapper {
+      padding: 0 4.5vw 8.9vw;
+      background-image: url(../img/dot_grey.png);
+      background-repeat: repeat;
+      background-size: 30px 30px;
+      margin-top: 38.3vw;
+    }
+    .study-bg-common {
+      width: auto;
+      height: auto;
+      transform: translateY(0);
+      margin-left: 0;
+      padding-left: 0;
+      background-image: none;
+    }
+    .tablet-img {
+      width: auto;
+      height: auto;
+      margin-bottom: 6vw;
+      margin-left: 0;
+      padding-left: 0;
+      background-image: none;
+
+      img {
+        transform: translateY(0);
+        width: 41.7vw;
+        margin-top: -30vw;
+      }
+    }
+    .img-common {
+      margin-left: auto;
+      margin-right: auto;
+      width: 63.7vw;
+      img {
+        width: 63.7vw;
+      }
+    }
+  }
+
+
+  .study-s5-up-img {
+    // padding: 0vw 0 1vw;
+    h2 {
+          top: -57vw;
+    }
+    .content-wrapper {
+      // padding: 0 4.5vw 8.9vw;
+      // background-image: url(../img/dot_grey.png);
+      // background-repeat: repeat;
+      // background-size: 30px 30px;
+      margin-top: 64vw;
+    }
+    .study-bg-common {
+      // width: auto;
+      // height: auto;
+      // transform: translateY(0);
+      // margin-left: 0;
+      // padding-left: 0;
+      // background-image: none;
+    }
+    .tablet-img {
+      // width: auto;
+      // height: auto;
+      // margin-bottom: 6vw;
+      // margin-left: 0;
+      // padding-left: 0;
+      // background-image: none;
+
+      img {
+        // transform: translateY(0);
+        // width: 41.7vw;
+        margin-top: -53vw;
+      }
+    }
+    .img-common {
+      // margin-left: auto;
+      // margin-right: auto;
+      // width: 63.7vw;
+      img {
+        // width: 63.7vw;
+      }
+    }
+  }
+
+
+
+}

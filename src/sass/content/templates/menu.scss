@@ -1,0 +1,251 @@
+.menu {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 100;
+  max-height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: #000000;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s ease-in-out, visibility .2s ease-in-out;
+  will-change: opacity;
+  &.active {
+    visibility: visible;
+    opacity: 1;
+  }
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: none;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .menu-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .menu-item {
+    width: 20%;
+    height: 100%;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 100px 100px 100px 40px;
+    position: relative;
+
+    &:after {
+      display: block;
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      z-index: 0;
+      background-size: cover;
+      opacity: 0;
+      transition: opacity .3s ease-in-out;
+    }
+
+    &:nth-child(1) {
+      &:after {
+        background: url(../img/menu/1.png) no-repeat 0 0;
+      }
+    }
+    &:nth-child(2) {
+      &:after {
+        background: url(../img/menu/2.png) no-repeat 0 0;
+      }
+    }
+    &:nth-child(3) {
+      &:after {
+        background: url(../img/menu/3.png) no-repeat 0 0;
+      }
+    }
+    &:nth-child(4) {
+      &:after {
+        background: url(../img/menu/4.png) no-repeat 0 0;
+      }
+    }
+    &:nth-child(5) {
+      &:after {
+        background: url(../img/menu/5.png) no-repeat 0 0;
+      }
+    }
+
+    &:hover {
+      &:after {
+        opacity: 1;
+      }
+    }
+
+    .menu-item-header {
+      @extend %qbold;
+      font-size: 25px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 9.31px;
+      margin-bottom: 32px;
+    }
+
+    .menu-item-sign {
+      @extend %qreg;
+      opacity: 0.8;
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 40px;
+    }
+
+    .section-btn-wrapper {
+      display: flex;
+      width: 200px;
+      align-items: center;
+
+      &:after {
+        display: none;
+      }
+    }
+
+    .menu-item-btn {
+      @extend %button;
+      box-sizing: content-box;
+      padding: 0;
+      width: 100%;
+      height: 40px;
+      line-height: 40px;
+      border-color: #cccccc;
+      text-align: center;
+      padding-left: 6.6px;
+
+
+      &:hover {
+        border-color: #ffffff;
+        box-shadow: 3px 3px 0 #ffffff;
+        background-color: #000000;
+      }
+    }
+  }
+
+  .menu-item-content {
+    z-index: 1;
+  }
+
+  .menu-logo {
+    position: absolute;
+    left: 98px;
+    top: 28px;
+
+    svg {
+      fill: #ffffff;
+      width: 150px;
+      height: 23px;
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+
+  .menu {
+
+    &:before {
+      display: block;
+      content: '';
+      position: fixed;
+      bottom: 100%;
+      left: 0;
+      right: 0;
+      height: 200px;
+      box-shadow: -1px 40px 103px -9px rgba(0, 0, 0, 0.95);
+      z-index: 100;
+      pointer-events: none;
+    }
+    .container {
+      padding: 120px 0 0;
+      height: auto;
+    }
+
+    .menu-container {
+      flex-direction: column;
+      display: block;
+      max-height: none;
+    }
+
+    .menu-item {
+      width: 740px;
+      height: auto;
+      justify-content: center;
+      padding: 0;
+      margin: 0 auto 70px;
+
+      &:after {
+        display: none;
+      }
+
+      .menu-item-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+      &:nth-child(5) {
+        margin-bottom: 0;
+        padding-bottom: 50px;
+      }
+
+      .menu-item-header {
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 38px;
+        padding-left: 21.51px;
+      }
+
+      .menu-item-sign {
+        text-align: center;
+        margin-bottom: 0;
+      }
+
+      .section-btn-wrapper {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .menu {
+    .menu-container {
+      margin-bottom: 0;
+      margin-top: 0vw;
+    }
+
+    .menu-item {
+      width: auto;
+      margin-bottom: 19vw;
+
+      .menu-item-header {
+        font-size: 6.7vw;
+        letter-spacing: 7.06px;
+        margin-bottom: 0px;
+      }
+
+      .menu-item-sign {
+        display: none;
+      }
+    }
+  }
+}

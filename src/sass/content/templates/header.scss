@@ -1,0 +1,169 @@
+header {
+  display: block;
+  height: 110px;
+  z-index: 101;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  overflow: visible;
+  position: fixed;
+
+  .container {
+    justify-content: space-between;
+  }
+
+  .logo-link {
+    display: block;
+
+    svg {
+      fill: #000000;
+      width: 150px;
+      height: 23px;
+      transition: fill .3s ease-in-out;
+    }
+
+    &.active-logo-bg {
+      svg {
+        fill: #ffffff;
+      }
+    }
+  }
+
+  .menu-button-container {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .menu-button-wrapper {
+    position: relative;
+    width: 30px;
+    cursor: pointer;
+  }
+  .menu-btn {
+    height: 3px;
+    background-color: #000000;
+    margin: 10px 0;
+    transition: margin .15s ease-in-out!important;
+
+    &:before,
+    &:after {
+      position: absolute;
+      display: block;
+      left: 0;
+      right: 0;
+      content: '';
+      height: 3px;
+      background-color: #000000;
+      transition: all .15s ease-in-out!important;
+      will-change: transform;
+    }
+
+    &:before {
+      top: 0;
+    }
+
+    &:after {
+      bottom: 0;
+    }
+
+    &.active {
+      margin: 0;
+    }
+    &.hide-line {
+      background-color: transparent!important;
+      transition-delay: .01s;
+
+      &:before,
+      &:after {
+        background-color: #ffffff;
+      }
+    }
+    &.rotate-close {
+      &:before {
+        transform: rotate(45deg);
+      }
+      &:after {
+        transform: rotate(-45deg);
+      }
+    }
+
+    &.index-change-col {
+      background-color: #ffffff;
+      transition: margin .01s ease-in-out;
+
+      &:before,
+      &:after {
+        background-color: #ffffff;
+        transition: all .01s ease-in-out;
+      }
+    }
+  }
+}
+
+
+header.white-header a>svg {
+  fill: #fff;
+}
+
+header.white-header .menu-btn {
+  background-color: #fff;
+}
+
+header.white-header .menu-btn:before {
+  background-color: #fff;
+}
+
+header.white-header .menu-btn:after {
+  background-color: #fff;
+}
+
+header.white-header+.section .study-s1 h1 {
+  color: #fff;
+}
+
+header.white-header+.section .study-s1 .s1-btn {
+  color: #fff;
+  border-color: #fff;
+}
+
+header.white-header+.section .study-s1 .s1-btn:hover {
+  -webkit-box-shadow: 3px 3px 0 #fff;
+  box-shadow: 3px 3px 0 #fff;
+  border: 3px solid #fff;
+}
+
+header.white-header+.section .study-s1 .s1-btn-helper span, 
+header.white-header+.section .study-s1 .s1-btn-helper svg {
+  fill: #fff!important;
+  color: #fff!important;
+}
+
+header.white-header+.section .study-s1 .icon-svg-arrow-thin {
+  fill: #fff;
+}
+
+@media screen and (max-width: 1280px) {
+
+  header {
+    .logo-link {
+      transition: opacity .15s linear;
+      &.active-logo-bg {
+        opacity: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  header {
+    position: absolute;
+  }
+  .logo-link-header {
+    position: absolute;
+  }
+}

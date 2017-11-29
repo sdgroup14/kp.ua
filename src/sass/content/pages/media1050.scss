@@ -1,0 +1,27 @@
+
+
+@media all and (max-width: 1050px) {
+	body {
+		min-width: auto;
+		//max-width: 90%;
+	}
+	
+	
+	.l-container {
+		max-width: 1030px;
+		width: auto;
+	}
+	
+	.l-container {
+		.l-cols {
+			display: none!important;
+			//width: 0!important;
+			//opacity: 0;
+			//visibility: hidden;
+		}
+	}
+	
+	.header__banner{
+		display: none;
+	}
+}

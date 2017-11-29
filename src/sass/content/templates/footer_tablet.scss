@@ -1,0 +1,211 @@
+.footer_tablet {
+  position: relative;
+  background-color: #000000;
+  min-height: auto;
+
+  .container {
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    &:after {
+      display: none;
+    }
+  }
+
+  .footer-menu {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+
+  .footer-menu-item {
+    @extend %qbold;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 5.21px;
+  }
+
+  .logo-link {
+    margin-bottom: 29px;
+    svg {
+      fill: #ffffff;
+      width: 150px;
+      height: 23px;
+      transition: fill .3s ease-in-out;
+    }
+  }
+
+  .icon-svg-logo {
+    width: 135px;
+    fill: #ffffff;
+    margin: 0 3px 0 11px;
+    height: 19px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .icon-svg-arrow-right,
+  .icon-svg-arrow-left {
+    width: 14px;
+    fill: #4d4d4d;
+    height: 19px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .footer-social {
+    display: block;
+    margin: 62px 0 64px;
+    float: none;
+    &:after {
+      display: none;
+    }
+  }
+
+  .footer-social-item {
+    display: inline-block;
+    width: 49px;
+    height: 49px;
+    margin: 0 23px;
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, .2);
+    text-align: center;
+    vertical-align: middle;
+
+    svg {
+      fill: #ffffff;
+      height: 49px;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  .icon-svg-fb {
+    width: 10px;
+    height: 21px;
+  }
+  .icon-svg-in {
+    width: 19px;
+    height: 18px;
+  }
+  .icon-svg-tw {
+    width: 21px;
+    height: 17px;
+  }
+
+  .footer-contacts-list {
+    float: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+
+    a {
+      color: #ffffff;
+      @extend %Alig;
+      vertical-align: middle;
+    }
+  }
+  .footer-contacts-item {
+    display: inline-block;
+    margin: 0 24px;
+    color: #ffffff;
+    @extend %Alig;
+    font-size: 23px;
+    line-height: 48px;
+
+
+    svg {
+      fill: #ffffff;
+      display: inline-block;
+      vertical-align: top;
+      height: 24px;
+      vertical-align: middle;
+      margin-bottom: 5px;
+    }
+
+    .icon-svg-phone {
+      width: 17px;
+      transform: rotate(43deg);
+      margin-right: 3px;
+    }
+
+    .icon-svg-place {
+      width: 16px;
+      height: 23px;
+      margin-right: 16px;
+    }
+  }
+
+
+  .footer-contacts-item:last-child {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+
+
+  .footer-btns {
+    @extend .clearfix;
+    text-align: right;
+    margin-bottom: 70px;
+  }
+
+  .footer-btn {
+    display: inline-block;
+  }
+
+  .footer-btn:last-of-type {
+    text-transform: uppercase;
+    letter-spacing: 6.6px;
+    margin-left: 30px;
+  }
+
+
+  .footer-btn {
+
+    color: #ffffff;
+    @extend %Abold;
+    font-size: 15px;
+    padding: 0 30px;
+    line-height: 50px;
+    border: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 6px;
+
+    vertical-align: middle;
+    transition: all .15s linear;
+
+    &:hover {
+      background-color: #ffffff;
+      border: 1px solid rgba(255, 255, 255, .2);
+      color: #000000;
+
+      svg {
+        fill: #000000;
+      }
+    }
+
+    svg {
+      display: inline-block;
+      fill: #ffffff;
+      width: 20px;
+      height: 50px;
+      vertical-align: middle;
+      margin-right: 10px;
+      padding-bottom: 3px;
+    }
+  }
+
+  .copyright {
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    @extend %Areg;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+}

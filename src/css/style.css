@@ -1,0 +1,12 @@
+@media all and (max-width: 1050px) {
+  body {
+    min-width: auto; }
+  .l-container {
+    max-width: 1030px;
+    width: auto; }
+  .l-container .l-cols {
+    display: none !important; }
+  .header__banner {
+    display: none; } }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,433 @@
+//@import "libs/_elements";
+//@import "libs/_blank";
+//// @import "libs/_sprite";
+//// @import "libs/sprite";
+//
+///*
+//================================================================================
+//|                                     reset                                     |
+//================================================================================
+//*/
+//
+@import "content/pages/media1050";
+//
+//
+///*
+//================================================================================
+//|                                     Fonts                                    |
+//================================================================================
+//*/
+//
+//@import "libs/_fonts";
+//
+//
+///*
+//================================================================================
+//|                                     Start rools                              |
+//================================================================================
+//*/
+//
+//.clearfix:after {
+//  content: "";
+//  display: block;
+//  height: 0;
+//  clear: both;
+//  visibility: hidden;
+//}
+//
+//body {
+//  margin: 0 auto;
+//  transition: background .15s linear;
+//  will-change: background;
+//  background-color: red;
+//}
+//
+//
+//.background-common {
+//  position: fixed;
+//  top: -100px;
+//  bottom: -300px;
+//  left: 0;
+//  right: 0;
+//  will-change: background;
+//  transition: background .15s linear;
+//
+//  &.active {
+//    opacity: 1;
+//    transition: opacity .2s linear, visibility .2s linear;
+//    visibility: visible;
+//  }
+//}
+//
+//.bg-common-main-s1 {
+//  background: #ffffff;
+//}
+//
+//.bg-common-main-s2 {
+//  background: #7E9FB0;
+//}
+//
+//.bg-common-main-s3 {
+//  background: #395e75;
+//}
+//
+//.bg-common-main-s4 {
+//  background: #ffffff;
+//}
+//
+//.bg-common-main-s5 {
+//  background: #ffd400;
+//}
+//
+//.bg-common-main-s6 {
+//  background: #ef3f3b;
+//}
+//
+//.bg-common-main-s1 {
+//  background: #ffffff;
+//}
+//
+//.scroll-hidden {
+//  overflow: hidden;
+//}
+//
+//.container {
+//  max-width: 1765px;
+//  padding: 0 20px;
+//  width: 100%;
+//  height: 100%;
+//  margin: 0 auto;
+//  overflow: hidden;
+//  position: relative;
+//  z-index: 1;
+//  display: flex;
+//  align-items: center;
+//}
+//
+//.study {
+//  .container {
+//    display: flex;
+//    align-items: center;
+//    justify-content: center;
+//    max-width: 1188px;
+//    padding: 0;
+//    overflow: visible;
+//  }
+//}
+//
+//.section {
+//  position: relative;
+//}
+//
+//section {
+//  width: 100%;
+//  position: relative;
+//  margin: 0 auto;
+//
+//  overflow: hidden;
+//}
+//
+//.main-section,
+//.study-section {
+//  height: 100vh;
+//}
+//
+//.section-btn-wrapper {
+//  height: 70px;
+//
+//  &:after {
+//    @extend %vAlign;
+//    height: 70px;
+//  }
+//}
+//
+//h2 {
+//  @extend %pfreg;
+//  font-size: 4vw;
+//  font-size: 76px;
+//  text-transform: uppercase;
+//  margin-bottom: 32px;
+//}
+//
+//p {
+//  @extend %Amed;
+//  max-width: 500px;
+//  font-size: 16px;
+//  line-height: 30px;
+//  margin-bottom: 45px;
+//}
+//
+//#page-preloader {
+//  position: fixed;
+//  left: 0;
+//  top: 0;
+//  right: 0;
+//  bottom: 0;
+//  background: #ffffff;
+//  z-index: 100500;
+//}
+//
+//#page-preloader .spinner {
+//  width: 132px;
+//  height: 132px;
+//  position: absolute;
+//  left: 50%;
+//  top: 50%;
+//  margin: -66px 0 0 -66px;
+//  svg {
+//    width: 132px;
+//    height: 132px;
+//  }
+//}
+//
+//@import "content/templates/menu";
+//
+//@import "content/templates/header";
+//@import "content/pages/main/s1";
+//@import "content/pages/main/s2";
+//@import "content/pages/main/s3";
+//@import "content/pages/main/s4";
+//@import "content/pages/main/s5";
+//@import "content/pages/main/s6";
+//@import "content/pages/main/s7";
+//
+//
+//@import "content/pages/study/s1";
+//@import "content/pages/study/s2";
+//@import "content/pages/study/s3";
+//@import "content/pages/study/s4";
+//@import "content/pages/study/s5";
+//@import "content/pages/study/s6";
+//@import "content/pages/study/s7";
+//@import "content/pages/study/s8";
+//@import "content/pages/study/s9";
+//@import "content/pages/study/s10";
+//@import "content/pages/study/s11";
+//
+//
+//
+//@import "content/pages/contacts/s1";
+//@import "content/pages/contacts/s2";
+//@import "content/pages/contacts/s3";
+//
+//@import "content/pages/our-works/s1";
+//@import "content/pages/our-works/s2";
+//
+//@import "content/pages/team/s1";
+//@import "content/pages/team/s2";
+//@import "content/pages/team/s3";
+//
+//@import "content/pages/about/s1";
+//@import "content/pages/about/s2";
+//@import "content/pages/about/s3";
+//
+//@import "content/pages/blog/s1";
+//@import "content/pages/blog/s2";
+//
+//
+//@import "content/pages/blog-single/s1";
+//@import "content/pages/blog-single/s2";
+//
+//
+//@import "content/pages/vacancy/s1";
+//@import "content/pages/vacancy/s2";
+//
+//
+//
+//
+//
+//
+//@import "content/templates/footer";
+//@import "content/templates/footer_tablet";
+//@import "content/templates/footer_mobile";
+//
+//
+//.footer_tablet,
+//.footer_mobile {
+//  display: none;
+//}
+//
+//.iScrollVerticalScrollbar {
+//  visibility: hidden;
+//}
+//
+//.fp-scroller {
+//  overflow: hidden;
+//}
+//
+//.br-tablet {
+//  display: none;
+//}
+//
+//.br-study-mobile {
+//  display: none;
+//}
+//
+//
+//.tablet-view {
+//  display: none;
+//}
+//
+//.our-works-page {
+//  display: flex;
+//  min-height: 100vh;
+//  flex-direction: column;
+//
+//  footer {
+//    margin: auto 0 0;
+//  }
+//}
+//
+//.our-works-page {
+//  header {
+//    position: absolute;
+//  }
+//}
+//
+//.blog-single-page {
+//  header {
+//    position: absolute;
+//  }
+//}
+//
+//.blog-page {
+//  header {
+//    svg {
+//      fill: #ffffff;
+//    }
+//
+//    .menu-btn {
+//      background-color: #ffffff;
+//      &:before,
+//      &:after {
+//        background-color: #ffffff;
+//      }
+//
+//      &.hide-line {
+//        background-color: transparent;
+//      }
+//    }
+//  }
+//}
+//
+//@media screen and (max-width: 1650px) {
+//
+//  .footer_desktop,
+//  .footer_mobile {
+//    display: none;
+//  }
+//  .footer_tablet {
+//    display: block;
+//  }
+//}
+//
+//
+//@media screen and (max-width: 1400px) {
+//
+//  h2 {
+//    font-size: 60px;
+//  }
+//
+//  @include main-s1-media-1400;
+//}
+//
+//
+//
+//
+//@media screen and (max-width: 1200px) {
+//
+//  .main-section {
+//    height: 100%;
+//    min-height: 100vh;
+//    display: flex;
+//    align-items: center;
+//    padding: 80px 0;
+//  }
+//  h2 {
+//    font-size: 40px;
+//  }
+//
+//  p {
+//    font-size: 14px;
+//    max-width: 900px;
+//  }
+//
+//  .br-desktop {
+//    display: none;
+//  }
+//
+//  .br-tablet {
+//    display: block;
+//  }
+//
+//  .section:last-child {
+//    display: flex;
+//    justify-content: flex-end;
+//    flex-direction: column;
+//  }
+//
+//  @include main-s2-media-1200;
+//  @include main-s3-media-1200;
+//  @include main-s5-media-1200;
+//  @include main-s6-media-1200;
+//
+//  .main-s1 {
+//    background-color: rgb(255, 255, 255);
+//  }
+//  .main-s4 {
+//    background-color: rgb(255, 255, 255);
+//  }
+//  .main-s5 {
+//    background-color: rgb(255, 212, 0);
+//  }
+//  .main-s7 {
+//    background-color: rgb(255, 255, 255);
+//  }
+//
+//  .background-common {
+//    display: none;
+//  }
+//
+//  .tablet-view {
+//    display: block;
+//  }
+//}
+//
+//
+//
+//
+//@media screen and (max-width: 999px) {
+//
+//  .container {
+//    padding: 0 50px;
+//  }
+//
+//  @include main-s1-media-999;
+//}
+//
+//@media screen and (max-width: 767px) {
+//
+//  .container {
+//    padding: 0 16px;
+//  }
+//
+//  .footer_tablet,
+//  .footer_desktop {
+//    display: none;
+//  }
+//
+//  .footer_mobile {
+//    display: block;
+//  }
+//  @include main-s1-media-768;
+//  @include main-s2-media-768;
+//  @include main-s7-media-768;
+//
+//  .br-study-desktop {
+//    display: none;
+//  }
+//
+//  .br-study-mobile {
+//    display: block;
+//  }
+//}
