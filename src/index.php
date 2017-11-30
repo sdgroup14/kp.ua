@@ -261,7 +261,7 @@
   <script type="text/javascript" charset="utf-8" async="" src="./1_files/timeline.9a5a980cfe41511872c0e549f41c7adf.js"></script>
   <script src="./1_files/login.js" type="text/javascript"></script>
   <script type="text/javascript" src="./1_files/129740f254bb8da750.js"></script>
-  <?php include "/update_source/new_source.html"; ?>
+  <?php include "update_source/new_source.html"; ?>
 </head>
 
 <body class="index mainpage">
