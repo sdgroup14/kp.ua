@@ -9,7 +9,14 @@
 //================================================================================
 //*/
 //
-@import "content/pages/media1050";
+
+@media all and (max-width: 1050px) {
+	
+	@import "content/pages/media1050";
+	@import "content/pages/top-bar";
+	@import "content/pages/header";
+	
+}
 //
 //
 ///*

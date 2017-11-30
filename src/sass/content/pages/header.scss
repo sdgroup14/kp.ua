@@ -1,0 +1,59 @@
+.header {
+	
+	.header__logo {
+		//float: left;
+		margin-right: 14px;
+		width: 306px;
+		//height: 77px;
+		//background: url(https://kp.ua/img/logo.png) 0 0 no-repeat;
+		background-size: 306px;
+	}
+	
+	.header__widgets {
+		//overflow: hidden;
+		padding: 9px 20px 0 9px;
+		//font-size: 13px;
+	}
+	
+	.header__mailto {
+		//float: left;
+		//padding: 6px 0 8px 0;
+		margin-top: 6px;
+		//border-top: 1px solid #bcc4cc;
+		//border-bottom: 1px solid #bcc4cc;
+		//color: #40454c;
+		font-size: 0;
+		line-height: 0;
+		border: 0;
+		//text-decoration: none;
+		
+		i {
+			//display: inline-block;
+			//margin-right: 10px;
+			//vertical-align: middle;
+			background: url('svg/mail.svg') 0 0 no-repeat;
+			//display: none;
+			width: 34px;
+			height: 25px;
+			background-size: 34px 25px;
+		}
+	}
+	
+	.search {
+		float: left;
+		//margin-top: 10px;
+		//padding: 5px;
+		//background: #f5f5f5;
+		//overflow: hidden;
+	}
+	
+	.search__text {
+		//float: left;
+		//margin-right: -2px;
+		//padding: 0 10px;
+		width: 15px;
+		//height: 28px;
+		//border: 1px solid #bec5cd;
+		//border-right: 0;
+	}
+}

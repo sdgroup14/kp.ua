@@ -43,13 +43,24 @@
     width: 36px;
     height: 36px; }
   .header .header__logo {
+    margin-right: 14px;
     width: 306px;
     background-size: 306px; }
   .header .header__widgets {
     padding: 9px 20px 0 9px; }
   .header .header__mailto {
+    margin-top: 6px;
     font-size: 0;
     line-height: 0;
-    border: 0; } }
+    border: 0; }
+    .header .header__mailto i {
+      background: url("svg/mail.svg") 0 0 no-repeat;
+      width: 34px;
+      height: 25px;
+      background-size: 34px 25px; }
+  .header .search {
+    float: left; }
+  .header .search__text {
+    width: 15px; } }
 
 /*# sourceMappingURL=style.css.map */

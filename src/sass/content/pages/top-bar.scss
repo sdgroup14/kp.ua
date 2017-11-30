@@ -1,0 +1,48 @@
+
+	
+	.top-bar {
+		width: 640px;
+		padding-right: 16px;
+		height: 36px;
+		line-height: 36px;
+		//width: 1000px; 
+		//background: #565D65;
+	}
+	.top-bar_act {
+		//position: fixed;
+		//left: 50%;
+		//top: 0;
+		//z-index: 1000;
+		margin-left: -320px;
+	}
+	
+	.top-bar__enter {
+		
+		.btn_gray {
+			width: 78px;
+			height: 29px;
+			line-height: 29px;
+			text-align: center;
+				background : linear-gradient(180deg, rgba(136, 147, 159, 1) 0%, rgba(64, 69, 77, 1) 100%);
+				border-style : Solid;
+				border-color : #4B5159;
+				border-width : 0px;
+				border-radius : 3px;
+				filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#88939F',endColorstr='#40454D' , GradientType=0);
+				font-family : Arial;
+				font-size : 12px;
+				color : #FFFFFF;
+		}
+	}
+	
+	#top-link {
+		//display: block;
+		//cursor: pointer;
+		margin-left: -32px;
+		width: 36px;
+		height: 36px;
+		//float: left;
+		//opacity: 0;
+		//background: url(https://kp.ua/img/icons-sd1c83eb31a.png) 0 -2310px no-repeat;
+	}
+

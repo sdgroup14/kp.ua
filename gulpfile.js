@@ -39,7 +39,7 @@ gulp.task('sass', function() {
         'On line: ' + err.line + '\n')
     }))
     .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest('src/css'))
+    .pipe(gulp.dest('src/update_source/'))
 });
 
 gulp.task('default', function() {
