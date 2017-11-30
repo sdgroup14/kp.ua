@@ -16,7 +16,9 @@
   .footer {
     display: none; }
   .header__banner {
-    display: none; }
+    display: none; } }
+
+@media all and (max-width: 1050px) {
   .top-bar {
     width: 640px;
     padding-right: 16px;
@@ -34,33 +36,112 @@
     border-color: #4B5159;
     border-width: 0px;
     border-radius: 3px;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#88939F',endColorstr='#40454D' , GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#88939F', endColorstr='#40454D', GradientType=0);
     font-family: Arial;
     font-size: 12px;
     color: #FFFFFF; }
   #top-link {
     margin-left: -32px;
     width: 36px;
-    height: 36px; }
-  .header .header__logo {
-    margin-right: 14px;
-    width: 306px;
-    background-size: 306px; }
-  .header .header__widgets {
-    padding: 9px 20px 0 9px; }
-  .header .header__mailto {
-    margin-top: 6px;
-    font-size: 0;
-    line-height: 0;
-    border: 0; }
-    .header .header__mailto i {
-      background: url("svg/mail.svg") 0 0 no-repeat;
-      width: 34px;
-      height: 25px;
-      background-size: 34px 25px; }
-  .header .search {
-    float: left; }
-  .header .search__text {
-    width: 15px; } }
+    height: 36px; } }
+
+@media all and (max-width: 1050px) {
+  .header {
+    position: relative; }
+    .header .header__logo {
+      margin-right: 14px;
+      width: 306px;
+      height: 75px;
+      background-size: 306px; }
+    .header .header__widgets {
+      padding: 9px 20px 0 9px; }
+    .header .header__mailto {
+      margin-top: 6px;
+      font-size: 0;
+      line-height: 0;
+      border: 0; }
+      .header .header__mailto i {
+        background: url("svg/mail.svg") 0 0 no-repeat;
+        width: 34px;
+        height: 25px;
+        background-size: 34px 25px;
+        margin-right: 16px; }
+    .header .search {
+      float: left;
+      margin-top: 12px;
+      padding: 0;
+      background: transparent; }
+    .header .search__text {
+      padding: 0;
+      height: 26px;
+      width: 100%;
+      max-width: 0;
+      opacity: 0;
+      transition: opacity .15s ease-in-out, max-width .15s ease-in-out, padding .15s ease-in-out; }
+      .header .search__text.show-input {
+        max-width: 163px;
+        opacity: 1;
+        padding: 0 10px; }
+    .header .search__submit {
+      height: 26px;
+      line-height: 26px;
+      -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FAFAFA', endColorstr='#D7D8DA' ,GradientType=0)";
+      background: linear-gradient(180deg, #fafafa 0%, #d7d8da 100%);
+      border-style: Solid;
+      border-color: #BEC5CD;
+      border-width: 1px;
+      border-radius: 3px;
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FAFAFA', endColorstr='#D7D8DA', GradientType=0); }
+      .header .search__submit i {
+        background: url("svg/search.svg") 0 0 no-repeat;
+        width: 16px;
+        height: 15px;
+        background-size: 12px;
+        margin: 0 2px 0 9px; }
+      .header .search__submit span {
+        font-family: Arial;
+        font-size: 12px;
+        color: #4B5159;
+        height: 22px;
+        line-height: 20px;
+        display: inline-block;
+        vertical-align: middle; }
+    .header .header__newspaper {
+      padding: 3px 0 1px 9px;
+      margin: 0;
+      width: 138px;
+      font-family: Arial;
+      font-size: 11px;
+      color: #989898; }
+      .header .header__newspaper strong {
+        font-weight: bold;
+        font-size: 12px;
+        color: #40454D; }
+    .header .header__links {
+      position: absolute;
+      top: 53px;
+      right: 7px;
+      margin-bottom: 0;
+      z-index: 0;
+      opacity: 1;
+      transition: opacity .1s ease-in-out; }
+      .header .header__links.hide-links {
+        opacity: 0; }
+    .header .nav-spec {
+      padding: 0 16px 0; }
+      .header .nav-spec a {
+        border-radius: 3px;
+        font-family: Arial;
+        font-size: 12px;
+        line-height: 22px;
+        color: #FFFFFF;
+        margin: 0 5px 5px 0; }
+        .header .nav-spec a.nav-spec__yellow {
+          background: #ECA50D;
+          box-shadow: none; }
+    .header .header__mob-links, .header .header__soc, .header .nav-top {
+      display: none; }
+    .header .header__links i {
+      display: none; } }
 
 /*# sourceMappingURL=style.css.map */
