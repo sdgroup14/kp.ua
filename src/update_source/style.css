@@ -124,9 +124,11 @@
       margin-bottom: 0;
       z-index: 0;
       opacity: 1;
-      transition: opacity .1s ease-in-out; }
+      transition: opacity .1s ease-in-out, visibility .1s ease-in-out; }
       .header .header__links.hide-links {
-        opacity: 0; }
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden; }
     .header .nav-spec {
       padding: 0 16px 0; }
       .header .nav-spec a {
@@ -139,6 +141,59 @@
         .header .nav-spec a.nav-spec__yellow {
           background: #ECA50D;
           box-shadow: none; }
+    .header .nav {
+      overflow: visible;
+      box-shadow: none;
+      background: none;
+      background-image: none;
+      border-radius: 0;
+      padding: 0 16px; }
+      .header .nav ul {
+        display: block;
+        background: #7E8791;
+        border-radius: 3px; }
+        .header .nav ul:after {
+          content: "";
+          display: block;
+          height: 0;
+          clear: both;
+          visibility: hidden; }
+      .header .nav li:first-child {
+        border-left: 0; }
+      .header .nav a, .header .nav .nav-dropdown {
+        float: left;
+        line-height: 30px;
+        border-right: 0;
+        border-left: 0;
+        font-family: Arial;
+        font-size: 14px;
+        color: #FFFFFF; }
+      .header .nav .nav-dropdown {
+        position: relative;
+        width: 44px;
+        border-left: 1px solid #A5B0BD;
+        text-align: center;
+        float: right;
+        cursor: pointer; }
+      .header .nav .nav-dropdown-container {
+        position: absolute;
+        padding-top: 2px;
+        right: 0;
+        top: 100%;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity .1s ease-in-out, visibility .1s ease-in-out; }
+        .header .nav .nav-dropdown-container.show-nav_dropdown {
+          opacity: 1;
+          visibility: visible; }
+        .header .nav .nav-dropdown-container .nav-dropdown-list {
+          display: block;
+          background: #7E8791;
+          border-radius: 3px; }
+        .header .nav .nav-dropdown-container a {
+          display: block;
+          float: none;
+          white-space: nowrap; }
     .header .header__mob-links, .header .header__soc, .header .nav-top {
       display: none; }
     .header .header__links i {

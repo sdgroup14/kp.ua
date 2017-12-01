@@ -394,6 +394,12 @@
                 <li><a href="https://kp.ua/life/" title="Общество"><span>Общество</span></a></li>
                 <li><a href="https://kp.ua/incidents/" title="Происшествия"><span>Происшествия</span></a></li>
                 <li><a href="https://kp.ua/sport/" title="Новости спорта"><span>Спорт</span></a></li>
+                <li><a href="https://kp.ua/sport/" title="Новости спорта"><span>Спорт1</span></a></li>
+                <li><a href="https://kp.ua/sport/" title="Новости спорта"><span>Спорт2</span></a></li>
+                <li><a href="https://kp.ua/sport/" title="Новости спорта"><span>Спорт3</span></a></li>
+                <li><a href="https://kp.ua/sport/" title="Новости спорта"><span>Спорт4</span></a></li>
+                <li><a href="https://kp.ua/sport/" title="Новости спорта"><span>Спорт5</span></a></li>
+                <li><a href="https://kp.ua/sport/" title="Новости спорта"><span>Спорт6</span></a></li>
                 <li><a href="https://kp.ua/culture/" title="Новости шоу бизнеса"><span>Светская хроника и ТВ</span></a></li>
                 <li><a href="https://kp.ua/citynews/" title="Городские новости"><span>Городские новости</span></a></li>
               </ul>
