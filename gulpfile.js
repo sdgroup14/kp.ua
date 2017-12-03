@@ -156,12 +156,12 @@ gulp.task('sprite', function() {
   var spriteData =
     gulp.src('./sprite/*.*') // путь, откуда берем картинки для спрайта
     .pipe(spritesmith({
-      imgName: 'sprite.png',
+      imgName: 'img/sprite-media.png',
       cssName: '_sprite_png.scss',
       algorithm: 'binary-tree',
     }));
 
-  spriteData.img.pipe(gulp.dest('./shttps://kp.ua/img/')); // путь, куда сохраняем картинку
+  spriteData.img.pipe(gulp.dest('./src/update_source/')); // путь, куда сохраняем картинку
   spriteData.css.pipe(gulp.dest('./src/sass/libs/')); // путь, куда сохраняем стили
 });
 

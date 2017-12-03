@@ -1,0 +1,21 @@
+@media all and (max-width: 1050px) {
+	
+	
+	.l-cols {
+		padding: 0 16px;
+		
+		.sidebar {
+			width: 236px;
+			background-color: red;
+			
+			&>* {
+				display: none!important;
+			}
+		}
+		
+		
+	
+	}
+	
+	
+}

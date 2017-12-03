@@ -411,7 +411,7 @@
             <div class="news-hour">
               <span>Новость часа:</span>
               <em>20:54</em>
-              <a href="https://kp.ua/citynews/593137-v-zaporozhe-unychtozhyly-buist-stalynu" title="В Запорожье уничтожили бюст Сталину">В Запорожье уничтожили бюст Сталину </a>
+              <a href="https://kp.ua/citynews/593137-v-zaporozhe-unychtozhyly-buist-stalynu" title="В Запорожье уничтожили бюст Сталину">В Запорожье уничтожилиапорожье уничтожили бюст Сталину </a>
             </div>
             <div class="topic">
               <div class="topic__item topic__item_main" id="_1_6">

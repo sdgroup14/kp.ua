@@ -34,11 +34,12 @@
 				//display: inline-block;
 				//margin-right: 10px;
 				//vertical-align: middle;
-				background: url('svg/mail.svg') 0 0 no-repeat;
+				//background: url('svg/mail.svg') 0 0 no-repeat;
+				@include sprite($mail);
 				//display: none;
-				width: 34px;
-				height: 25px;
-				background-size: 34px 25px;
+				//width: 34px;
+				//height: 25px;
+				//background-size: 34px 25px;
 				margin-right: 16px;
 			}
 		}
@@ -98,11 +99,8 @@
 			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FAFAFA', endColorstr='#D7D8DA', GradientType=0);
 			
 			i {
-				background: url('svg/search.svg') 0 0 no-repeat;
-				width: 16px;
-				height: 15px;
-				background-size: 12px;
-				margin: 0 2px 0 9px;
+				@include sprite($search);
+				margin: 0 2px 3px 9px;
 			}
 			
 			span {
@@ -156,6 +154,7 @@
 		
 		.nav-spec {
 			padding: 0 16px 0;
+			margin-bottom: 8px;
 			//overflow: hidden;
 			a {
 				//display: block;
@@ -193,7 +192,7 @@
 			
 			ul {
 				display: block;
-				
+				height: 36px;
 				background: #7E8791;
 				//background-image: none;
 				border-radius: 3px;
@@ -210,10 +209,16 @@
 				border-left: 0;
 			}
 			
+			//& > a {
+			//	height: 36px;
+			//	line-height: 36px;
+			//}
+			//
 			a, .nav-dropdown {
 				float: left;
 				//height: 30px;
-				line-height: 30px;
+				height: 36px;
+				line-height: 36px;
 				//padding: 0 13px;
 				//color: #fff;
 				//text-decoration: none;

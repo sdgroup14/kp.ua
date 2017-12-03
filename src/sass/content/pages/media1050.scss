@@ -25,15 +25,11 @@ body {
 
 .l-container {
 	.l-cols {
-		display: none !important;
-		width: 0 !important;
-		opacity: 0;
-		visibility: hidden;
+		//display: none !important;
+		//width: 0 !important;
+		//opacity: 0;
+		//visibility: hidden;
 	}
-}
-
-.header__banner {
-	display: none;
 }
 
 .footer {
@@ -43,5 +39,12 @@ body {
 .header__banner {
 	display: none;
 }
+	
+	
+	
+	
+	#frm {
+		overflow: hidden;
+	}
 
 }
