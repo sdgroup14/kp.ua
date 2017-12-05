@@ -262,6 +262,7 @@
   <script src="./1_files/login.js" type="text/javascript"></script>
   <script type="text/javascript" src="./1_files/129740f254bb8da750.js"></script>
   <?php include "update_source/new_source.html"; ?>
+	<link rel="stylesheet" href="1_files/royalslider.css">
 </head>
 
 <body class="index mainpage">
@@ -877,35 +878,36 @@
                 <span class="media-label">
                 фото дня
             </span>
-                <span class="gallery-header"><img src="./1_files/logo-small.png" width="219" height="23"></span>
-                <div id="gallerymain" class="royalSlider rsDefault rsAutoHeight rsHor rsWithThumbs rsWithThumbsHor">
-                  <div class="rsOverflow grab-cursor" style="width: 626px; height: 480px; transition: height 0ms ease-in-out;">
-                    <div class="rsContainer" style="transition-duration: 0s; transform: translate3d(0px, 0px, 0px);">
-                      <div style="left: 0px;" class="rsSlide ">
-                        <div class="rsContent" style="visibility: visible; opacity: 1; transition: opacity 400ms ease-in-out;">
-                          <img class="rsImg rsMainSlideImage" src="1_files/24311794.jpg" style="width: 626px; height: 441px; margin-left: 0px; margin-top: 35px;">
-                          <a class="rsLink" href="javascript:void()"></a>
+                <span class="gallery-header">
+	                <img src="./1_files/logo-small.png" width="219" height="23"></span>
+                <div id="gallerymain" class="royalSlider rsDefault">
+
+
+
+                        <div class="rsContent" style="">
+                          <img class="rsImg" src="1_files/24311794.jpg" style="">
+                          <a class="" href="javascript:void()"></a>
                         </div>
-                      </div>
-                      <div style="left: 634px;" class="rsSlide ">
+
+
                         <div class="rsContent">
-                          <img class="rsImg rsMainSlideImage" src="1_files/24311646.jpg" style="width: 626px; height: 412px; margin-left: 0px; margin-top: 49px;">
-                          <a class="rsLink" href="javascript:void()"></a>
+                          <img class="rsImg" src="1_files/24311646.jpg" style="">
+                          <a class="" href="javascript:void()"></a>
                         </div>
-                      </div>
-                      <div style="left: 1268px;" class="rsSlide ">
+
+
                         <div class="rsContent">
-                          <img class="rsImg rsMainSlideImage" src="1_files/24311575.jpg" style="width: 626px; height: 418px; margin-left: 0px; margin-top: 46px;">
-                          <a class="rsLink" href="javascript:void()"></a>
+                          <img class="rsImg" src="1_files/24311575.jpg" style="">
+                          <a class="" href="javascript:void()"></a>
                         </div>
-                      </div>
-                      <div style="left: 1902px;" class="rsSlide ">
+
+
                         <div class="rsContent">
-                          <img class="rsImg rsMainSlideImage" src="1_files/24311251.jpg" style="width: 626px; height: 418px; margin-left: 0px; margin-top: 46px;">
-                          <a class="rsLink" href="javascript:void()"></a>
+                          <img class="rsImg" src="1_files/24311251.jpg" style="">
+                          <a class="" href="javascript:void()"></a>
                         </div>
-                      </div>
-                    </div>
+
+
                     <div class="rsFullscreenBtn">
                       <div class="rsFullscreenIcn"></div>
                     </div>
@@ -915,7 +917,7 @@
                     <div class="rsArrow rsArrowRight rsHidden" style="display: block;">
                       <div class="rsArrowIcn"></div>
                     </div>
-                  </div>
+
                   <div class="rsGCaption">
                     <div class="rsCaption">
                       <div class="photo-day__text">
@@ -925,31 +927,31 @@
                       </div>
                     </div>
                   </div>
-                  <div class="rsNav rsThumbs rsThumbsHor">
-                    <div class="rsThumbsContainer" style="transition-property: -webkit-transform; width: 1875px; transition-duration: 0ms;">
-                      <div style="margin-right:5px;" class="rsNavItem rsThumb rsNavSelected"><img src="./1_files/24311794(1).jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>
-                      <div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24311646(1).jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>
-                      <div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24311575(1).jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>
-                      <div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24311251(1).jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>
-                      <div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24311402.jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>
-                      <div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24311087.jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>
-                      <div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24310996.jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>
-                      <div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24310869.jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>
-                      <div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24310784.jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>
-                      <div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24310656.jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>
-                      <div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24310533.jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>
-                      <div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24310423.jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>
-                      <div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24310245.jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>
-                      <div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24310142.jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>
-                      <div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24310051.jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>
-                    </div>
-                    <div class="rsThumbsArrow rsThumbsArrowLeft rsThumbsArrowDisabled">
-                      <div class="rsThumbsArrowIcn"></div>
-                    </div>
-                    <div class="rsThumbsArrow rsThumbsArrowRight">
-                      <div class="rsThumbsArrowIcn"></div>
-                    </div>
-                  </div>
+                  <!--<div class="rsNav rsThumbs rsThumbsHor">-->
+                    <!--<div class="rsThumbsContainer" style="transition-property: -webkit-transform; width: 1875px; transition-duration: 0ms;">-->
+                      <!--<div style="margin-right:5px;" class="rsNavItem rsThumb rsNavSelected"><img src="./1_files/24311794(1).jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>-->
+                      <!--<div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24311646(1).jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>-->
+                      <!--<div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24311575(1).jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>-->
+                      <!--<div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24311251(1).jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>-->
+                      <!--<div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24311402.jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>-->
+                      <!--<div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24311087.jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>-->
+                      <!--<div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24310996.jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>-->
+                      <!--<div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24310869.jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>-->
+                      <!--<div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24310784.jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>-->
+                      <!--<div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24310656.jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>-->
+                      <!--<div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24310533.jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>-->
+                      <!--<div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24310423.jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>-->
+                      <!--<div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24310245.jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>-->
+                      <!--<div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24310142.jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>-->
+                      <!--<div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24310051.jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>-->
+                    <!--</div>-->
+                    <!--<div class="rsThumbsArrow rsThumbsArrowLeft rsThumbsArrowDisabled">-->
+                      <!--<div class="rsThumbsArrowIcn"></div>-->
+                    <!--</div>-->
+                    <!--<div class="rsThumbsArrow rsThumbsArrowRight">-->
+                      <!--<div class="rsThumbsArrowIcn"></div>-->
+                    <!--</div>-->
+                  <!--</div>-->
                   <div style="clear:both; float: none;"></div>
                 </div>
               </div>

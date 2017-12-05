@@ -3,6 +3,10 @@
 	.header {
 		position: relative;
 		
+		.top-bar {
+			position: static!important;
+		}
+		
 		.header__logo {
 			//float: left;
 			margin-right: 14px;
@@ -154,7 +158,7 @@
 		
 		.nav-spec {
 			padding: 0 16px 0;
-			margin-bottom: 8px;
+			margin-bottom: 6px;
 			//overflow: hidden;
 			a {
 				//display: block;
