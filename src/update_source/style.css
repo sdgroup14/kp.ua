@@ -385,6 +385,98 @@
     max-width: 352px;
     margin-top: 0 !important;
     height: 233px !important; }
+  .l-cols .rsContainer, .l-cols .rsContent {
+    height: 233px !important; }
+  .l-cols .rsDefault .rsGCaption {
+    margin-top: 0; }
+  .l-cols .photo-day__text {
+    margin-bottom: 0;
+    padding: 9px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF; }
+  .l-cols .rsHidden {
+    opacity: 0;
+    visibility: visible; }
+  .l-cols .gallery_other {
+    box-shadow: none;
+    margin-bottom: 34px; }
+  .l-cols .gallery_other .gallery_other__title {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFFFFF; }
+  .l-cols .gallery_other span {
+    font-family: Arial;
+    font-size: 11px;
+    color: #C5CBD4; }
+  .l-cols a.gallery-more {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    display: block;
+    margin-top: 8px;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 16px;
+    color: #1A5CA6; }
+  .l-cols .video-scroller {
+    height: auto; }
+  .l-cols .video-scroller .video {
+    float: none;
+    padding: 0;
+    margin: 0;
+    height: 315px;
+    box-shadow: none; }
+  .l-cols .mejs-container {
+    width: 100% !important; }
+  .l-cols .mejs-mediaelement video {
+    width: 100%; }
+  .l-cols .video-scroller .video__wrap {
+    width: 100%;
+    overflow: hidden;
+    box-shadow: none; }
+  .l-cols .mejs-overlay {
+    width: 352px !important;
+    height: 282px !important; }
+  .l-cols .video__descr span {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding: 6px; }
+  .l-cols .video__descr {
+    width: auto;
+    right: 0;
+    box-shadow: none;
+    height: 44px;
+    background-color: #575D66; }
+  .l-cols .other {
+    box-shadow: none; }
+  .l-cols .video-bar {
+    float: none;
+    padding: 20px 20px 12px 10px;
+    width: 100%;
+    height: 233px; }
+    .l-cols .video-bar:after {
+      position: absolute;
+      content: '';
+      display: block;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 55px;
+      background: linear-gradient(180deg, rgba(64, 69, 77, 0) 0%, #40454d 100%);
+      pointer-events: none; }
+    .l-cols .video-bar a {
+      font-family: Arial;
+      font-size: 14px;
+      line-height: 18px;
+      color: #FFFFFF; }
+  .l-cols .video__wrap {
+    margin: 0; }
   .l-cols .other__scrollup, .l-cols .other__scrolldown {
     display: none; }
   .l-cols .rsDefault .rsFullscreenBtn {

@@ -923,7 +923,7 @@
                       <div class="photo-day__text">
                         <span>
                                     вчера, 18:13
-                                </span> Украинский военнослужащий ходит рядом с деревней Травневе, Украина. Фото: REUTERS/Oleksandr Klymenko
+                        </span> Украинский военнослужащий ходит рядом с деревней Травневе, Украина. Фото: REUTERS/Oleksandr Klymenko
                       </div>
                     </div>
                   </div>

@@ -338,6 +338,214 @@
 			height: 233px!important;
 		}
 		
+		.rsContainer, .rsContent {
+			height: 233px!important;
+		}
+		
+		.rsDefault .rsGCaption {
+			margin-top: 0;
+			//position: relative;
+			//text-align: left;
+			//width: 100%;
+		}
+		
+		.photo-day__text {
+			margin-bottom: 0;
+			padding: 9px;
+			//font-size: 14px;
+			//background: #1d1f22;
+			//color: #fff;
+			//overflow: hidden;
+			font-family: Arial;
+			font-size : 14px;
+			line-height : 18px;
+			color : #FFFFFF;
+		}
+		
+		.rsHidden {
+			opacity: 0;
+			visibility: visible;
+		}
+		
+		
+		.gallery_other {
+			//padding: 5px 6px 15px 10px;
+			//background: #565d66;
+			box-shadow: none;
+			margin-bottom: 34px;
+		}
+		
+		.gallery_other .gallery_other__title {
+			//padding: 6px 0 10px 0;
+			//font-weight: normal;
+			//font: bold 21px/33px Tahoma,Arial,sans-serif;
+			//color: #fff;
+			//text-transform: uppercase;
+				font-family : Arial;
+				font-weight : bold;
+				font-size : 17px;
+				line-height : 21px;
+				color : #FFFFFF;
+		}
+		
+		.gallery_other span {
+			//color: #f5f5f5;
+			//font: normal 10px Tahoma,Arial,sans-serif;
+			font-family : Arial;
+				font-size : 11px;
+				color : #C5CBD4;
+		}
+		
+		
+		a.gallery-more {
+			//text-decoration: underline;
+			position: absolute;
+			top: 100%;
+			right: 0;
+			display: block;
+			margin-top: 8px;
+				font-family : Arial;
+				font-size : 12px;
+				line-height : 16px;
+				color : #1A5CA6;
+		}
+		//a.gallery-more {
+		//	text-decoration: underline;
+		//	position: absolute;
+		//	top: 100%;
+		//	right: 0;
+		//}
+		
+		
+		
+		.video-scroller {
+			height: auto;
+			//position: relative;
+			//margin: 30px 0 15px 0;
+			//background: #40454c;
+			//-webkit-box-shadow: inset 0 6px 15px -5px rgba(0, 0, 0, 0.8);
+			//-moz-box-shadow: inset 0 6px 15px -5px rgba(0, 0, 0, 0.8);
+			//box-shadow: inset 0 6px 15px -5px rgba(0, 0, 0, 0.8);
+		}
+		
+		
+		.video-scroller .video {
+			//height:auto;
+			float: none;
+			padding: 0;
+			margin: 0;
+			height: 315px;
+			box-shadow: none;
+			//-webkit-box-sizing: border-box;
+			//-moz-box-sizing: border-box;
+			//box-sizing: border-box;
+			//padding: 0 10px 5px 10px;
+			//margin-bottom: 0;
+			//background: #565d66;
+			//-webkit-box-shadow: inset 0 6px 15px -5px rgba(0, 0, 0, 0.8);
+			//-moz-box-shadow: inset 0 6px 15px -5px rgba(0, 0, 0, 0.8);
+			//box-shadow: inset 0 6px 15px -5px rgba(0, 0, 0, 0.8);
+		}
+		
+		.mejs-container {
+			width: 100%!important;
+		}
+		
+		.mejs-mediaelement {
+			video {
+				width: 100%;
+			}
+		}
+		
+		.video-scroller .video__wrap {
+			width: 100%;
+			//height: auto;
+			overflow: hidden;
+			box-shadow: none;
+		}
+		
+		.mejs-overlay {
+			width: 352px!important;
+			height: 282px!important;
+		}
+		
+		.video__descr span {
+			//overflow: hidden;
+			//display: block;
+			//padding-top: 10px;
+			//color: #fff;
+			//text-shadow: 1px 1px #43434b;
+			//font-size: 16px;
+			//line-height: 1.2em;
+				font-family : Arial;
+				font-size : 14px;
+				line-height : 18px;
+				color : #FFFFFF;
+			padding: 6px;
+		}
+		
+		.video__descr {
+			//position: absolute;
+			//bottom: 0;
+			//left: 0;
+			width: auto;
+			right: 0;
+			box-shadow: none;
+			height: 44px;
+			background-color: #575D66;
+		}
+		
+		.other {
+			//background: #f5f5f5;
+			//margin-bottom: 20px;
+			//padding: 8px 10px;
+			//position: relative;
+			//overflow: hidden;
+			//-webkit-box-shadow: inset 0 10px 13px -7px rgba(0, 0, 0, 0.2);
+			//-moz-box-shadow: inset 0 10px 13px -7px rgba(0, 0, 0, 0.2);
+			box-shadow: none;
+		}
+		
+		.video-bar {
+			//position: relative;
+			float: none;
+			padding: 20px 20px 12px 10px;
+			width: 100%;
+			//background: none;
+			height: 233px;
+			
+			&:after {
+				position: absolute;
+				content: '';
+				display: block;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				height: 55px;
+					background : linear-gradient(180deg, rgba(64, 69, 77, 0) 0%, rgba(64, 69, 77, 1) 100%);
+				pointer-events: none;
+			}
+			
+			a {
+				//color: #fff;
+				//font-size: 12px;
+				//line-height: 14px;
+				//overflow: hidden;
+					font-family : Arial;
+					font-size : 14px;
+					line-height : 18px;
+					color : #FFFFFF
+				
+			}
+			
+		}
+		.video__wrap {
+			margin: 0;
+		}
+		
+
+		
+		
 		
 		
 		
