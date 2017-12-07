@@ -162,6 +162,18 @@
 				display: none;
 			}
 			
+			.bloger__spec {
+				//display: block;
+				//padding: 2px 10px 3px 10px;
+				//font-size: 11px;
+				//background: #78838f;
+					font-family : Arial;
+					font-size : 12px;
+					line-height : 16px;
+					color : #DAE0E8;
+				
+			}
+			
 			.bloger__title a {
 				//font-weight: bold;
 				//font-size: 16px;
@@ -185,6 +197,12 @@
 				background: #ECA50D;
 				background-image: none;
 				border: 0;
+				font-family : Arial;
+				font-weight : bold;
+				font-size : 17px;
+				//line-height : 21px;
+				color : #FFFFFF;
+				
 			}
 			
 			.press-block {
@@ -243,6 +261,7 @@
 					 }
 					 li {
 						 border: 0;
+						 padding-left: 0;
 					 }
 				}
 				.project__picture {
@@ -263,18 +282,193 @@
 			
 			.info-block ul {
 				//padding: 8px 9px 8px 9px;
-				//border: 1px solid #d7d7d7;
-				//background: #efefef;
+				border: 0;
+				background: transparent;
 				background-image: none;
+				padding-left: 0;
+				padding-top: 0;
+				padding-right: 0;
 				
 				li {
 					display: none;
+					border-bottom: 0;
+					
+					padding-bottom: 0;
 					&:first-of-type,
 					&:last-of-type {
 						display: block;
 					}
 					
+					&.more {
+						padding-top: 0;
+					}
+					
 				}
+				p {
+						font-family : Arial;
+						font-size : 13px;
+						line-height : 16px;
+						color : #40454D;
+				}
+			}
+			
+			.info-block li img {
+				float: left;
+				width: 84px;
+				height: 56px;
+				margin: 4px 10px 4px 0;
+				box-shadow: none;
+				
+			}
+			
+			.info-block .info-block__title {
+				//color: #40454c;
+				//font-weight: bold;
+				//font-size: 14px;
+				//line-height: 1.2em;
+					font-family : Arial;
+					font-weight : bold;
+					font-size : 13px;
+					line-height : 16px;
+					color : #40454D;
+				
+			}
+			
+			.miss-sidebar {
+				margin: 0;
+				
+				.miss__body {
+					background: transparent;
+					box-shadow: none;
+				}
+				
+				a{
+					img{
+						float: none;
+						width: 234px;
+						height: auto;
+						margin-top: 0;
+					}
+				}
+				
+			}
+			
+			.miss-sidebar:first-child {
+				margin: 0;
+			}
+			
+			.contest-block {
+				position: relative;
+				.info-block__header {
+					//display: inline-block;
+					//padding: 0 15px 0 10px;
+					//height: 29px;
+					//color: #fff;
+					//text-transform: uppercase;
+					//font: bold 15px/29px Tahoma, Arial, sans-serif;
+					position: absolute;
+					left: 0;
+					top: 0;
+					transform: translateY(-50%);
+					z-index: 1;
+					text-shadow: none;
+					background: #eca50d;
+					background-image: none;
+					//text-decoration: none;
+						font-family : Arial;
+						font-weight : bold;
+						font-size : 17px;
+						color : #FFFFFF;
+					border: 0;
+				}
+			}
+			
+			.miss__link {
+				background: transparent;
+				border: 0;
+				margin:0;
+				padding: 0;
+			}
+			
+			.miss__link a {
+				//display: block;
+				width: 100%;
+				//height: 28px;
+				//cursor: pointer;
+				//line-height: 28px;
+				//border-radius: 4px;
+				//text-align: center;
+				//font-weight: bold;
+				//color: #565d73;
+				//text-decoration: none;
+				//border: 1px solid #c8cbcd;
+				//-moz-user-select: none;
+				//-webkit-user-select: none;
+				//user-select: none;
+				//background: #e1e1e1;
+				background-image: none;
+				//font-size: 15px;
+				//font-weight: normal;
+				//color: #222;
+					background : linear-gradient(180deg, rgba(250, 250, 250, 1) 0%, rgba(215, 216, 218, 1) 100%);
+					border-style : Solid;
+					border-color : #BEC5CD;
+					border-width : 1px;
+					border-radius : 3px;
+					font-family : Arial;
+					font-size : 12px;
+					color : #4B5159;
+			}
+			
+			.contest__item img {
+				width: 100%;
+			}
+			
+			.contest__item {
+				display: none;
+				&:first-of-type {
+					display: block;
+				}
+			}
+			
+			.contest__name {
+				//background: #575d66;
+				//font-size: 12px;
+				//color: #fff;
+				//padding: 2px 10px 3px 10px;
+				font-family : Arial;
+				font-size : 13px;
+				line-height : 16px;
+				color : #FFFFFF;
+			}
+			
+			.contest__title {
+				//position: relative;
+				//display: block;
+				//text-decoration: none;
+				//color: #000;
+				//font-size: 14px;
+				//line-height: 1.1em;
+				border-bottom: 0;
+				margin:0;
+				padding: 13px 10px 11px;
+				font-family : Arial;
+				font-size : 13px;
+				line-height : 16px;
+				color : #575D66;
+				background-color: #f5f5f5;
+			}
+			
+			.contest__body .more {
+				background: transparent;
+				overflow: hidden;
+				padding: 4px 0 9px 10px;
+			}
+			
+			.contest__body {
+				background: none;
+				border-top: 0;
+				box-shadow: none;
 			}
 			
 			
