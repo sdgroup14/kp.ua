@@ -1,0 +1,140 @@
+@media all and (max-width: 1050px) {
+	.footer {
+		//position: relative;
+		width: 640px;
+		//margin: 0 auto;
+		//padding: 18px 0 12px;
+		///* overflow: hidden; */
+		//font-size: 12px;
+		box-shadow: none;
+		background-image: none;
+		//margin-top: 128px;
+			background : linear-gradient(180deg, rgba(88, 97, 108, 1) 35.47%, rgba(78, 84, 94, 1) 88.18%, rgba(75, 81, 90, 1) 100%);
+		
+		
+		
+		//@include sprite($mail);
+		
+		.footer__widgets {
+			float: none;
+			width: 100%;
+			border-bottom: 1px solid red;
+			
+			//padding: 0 19px;
+			&:after {
+				content: "";
+				display: block;
+				height: 0;
+				clear: both;
+				visibility: hidden;
+			}
+		}
+		.footer__logo {
+			float: left;
+		}
+		
+		.footer__location {
+			float: right;
+		}
+		
+		.footer__logo {
+			width: 128px;
+			height: 72px;
+			background-size: 128px;
+			margin-right: 55px;
+		}
+		
+		.footer__newspaper {
+			position: absolute;
+			left: 200px;
+			top: 0;
+			//display: none;
+		}
+		
+		
+		.footer__soc {
+			position: absolute;
+			left: 200px;
+			top: 40px;
+			//overflow: hidden;
+			//margin-bottom: 4px;
+			//padding: 5px 0 18px;
+			border-bottom: 0;
+			width: auto;
+			margin: 0;
+			padding: 0;
+			span {
+				margin-bottom: 6px;
+			}
+			
+			.soc {
+				margin-right: 23px;
+			}
+			
+			.soc_odn {
+				//background: url(https://kp.ua/img/icons-sd1c83eb31a.png) 0 -1419px no-repeat;
+				//width: 24px;
+				//height: 24px;
+				display: none;
+			}
+			
+			.soc_gp {
+				//background: url(https://kp.ua/img/icons-sd1c83eb31a.png) 0 -691px no-repeat;
+				//width: 24px;
+				//height: 24px;
+				@include sprite($ggl);
+			}
+			
+			.soc_fb {
+				//background: url(https://kp.ua/img/icons-sd1c83eb31a.png) 0 -1540px no-repeat;
+				//width: 24px;
+				//height: 24px;
+				@include sprite($fb);
+			}
+			
+			.soc_tw {
+				//background: url(https://kp.ua/img/icons-sd1c83eb31a.png) 0 -1166px no-repeat;
+				//width: 24px;
+				//height: 24px;
+				@include sprite($tw);
+			}
+			
+			.soc_vk {
+				//background: url(https://kp.ua/img/icons-sd1c83eb31a.png) 0 -1718px no-repeat;
+				//width: 24px;
+				//height: 24px;
+				@include sprite($vk);
+			}
+			
+			.soc_tg {
+				background: none;
+				//width: 22px;
+				//height: 22px;
+				//background-size: cover;
+				
+				@include sprite($tm);
+				//@include sprite($vk);
+			}
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		.calendar {
+			display: none;
+		}
+		
+	}
+	
+
+}
