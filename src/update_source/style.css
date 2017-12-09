@@ -824,12 +824,13 @@
   .footer {
     width: 640px;
     box-shadow: none;
-    background-image: none;
-    background: linear-gradient(180deg, #58616c 35.47%, #4e545e 88.18%, #4b515a 100%); }
+    background: linear-gradient(180deg, #58616c 35.47%, #4e545e 88.18%, #4b515a 100%);
+    margin-top: 83px; }
     .footer .footer__widgets {
       float: none;
+      position: relative;
       width: 100%;
-      border-bottom: 1px solid red; }
+      margin-bottom: 26px; }
       .footer .footer__widgets:after {
         content: "";
         display: block;
@@ -837,28 +838,50 @@
         clear: both;
         visibility: hidden; }
     .footer .footer__logo {
-      float: left; }
-    .footer .footer__location {
-      float: right; }
-    .footer .footer__logo {
+      float: left;
       width: 128px;
       height: 72px;
       background-size: 128px;
       margin-right: 55px; }
+    .footer .footer__location {
+      float: right;
+      font-family: Arial, serif;
+      font-size: 12px;
+      line-height: 18px;
+      color: #9EADC2;
+      margin-top: 19px;
+      margin-bottom: 0; }
+      .footer .footer__location p {
+        margin-top: 9px; }
+      .footer .footer__location a {
+        font-family: Arial, serif;
+        font-size: 14px;
+        line-height: 18px;
+        color: #FFFFFF;
+        font-weight: 400; }
     .footer .footer__newspaper {
       position: absolute;
       left: 200px;
-      top: 0; }
+      top: 0;
+      padding: 0; }
+      .footer .footer__newspaper a {
+        font-family: Arial, serif;
+        font-size: 14px;
+        line-height: 18px; }
     .footer .footer__soc {
       position: absolute;
       left: 200px;
-      top: 40px;
+      top: 20px;
       border-bottom: 0;
       width: auto;
       margin: 0;
       padding: 0; }
       .footer .footer__soc span {
-        margin-bottom: 6px; }
+        margin-bottom: 6px;
+        font-family: Arial, serif;
+        font-size: 12px;
+        line-height: 18px;
+        color: #9EADC2; }
       .footer .footer__soc .soc {
         margin-right: 23px; }
       .footer .footer__soc .soc_odn {
@@ -889,7 +912,46 @@
         background-position: -72px 0px;
         width: 26px;
         height: 26px; }
-    .footer .calendar {
+    .footer .footer__main {
+      width: 640px;
+      background-color: #4b515a; }
+    .footer .footer__top-nav {
+      margin: 0 0 16px;
+      padding: 0 19px; }
+      .footer .footer__top-nav ul:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
+      .footer .footer__top-nav li {
+        margin-right: 20px;
+        margin-bottom: 5px; }
+      .footer .footer__top-nav a {
+        font-family: Arial, serif;
+        font-size: 12px;
+        line-height: 18px;
+        color: #FFFFFF; }
+    .footer .footer__nav {
+      padding: 0 19px;
+      margin-bottom: 12px; }
+      .footer .footer__nav li {
+        margin-right: 15px;
+        margin-bottom: 14px; }
+      .footer .footer__nav a {
+        padding: 6px 10px 6px;
+        width: auto;
+        font-family: Arial, serif;
+        font-size: 14px;
+        line-height: 14px;
+        color: #FFFFFF; }
+    .footer .footer__info {
+      padding: 0 19px;
+      font-family: Arial, serif;
+      font-size: 12px;
+      line-height: 14px;
+      color: #9EADC2; }
+    .footer .footer__counters, .footer .footer__news, .footer .calendar {
       display: none; } }
 
 /*# sourceMappingURL=style.css.map */
