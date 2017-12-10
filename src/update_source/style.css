@@ -41,8 +41,8 @@
 @media all and (max-width: 1050px) {
   .header {
     position: relative; }
-    .header .top-bar {
-      position: static !important; }
+    .header .top-bar #top-link.backPlace {
+      background-position: 0 -2338px; }
     .header .header__logo {
       margin-right: 14px;
       width: 306px;
@@ -199,7 +199,11 @@
 
 @media all and (max-width: 1050px) {
   .l-cols {
-    padding: 0 16px; } }
+    padding: 0 16px; }
+  .l-container {
+    width: 640px;
+    background: #fff;
+    box-shadow: none; } }
 
 @media all and (max-width: 1050px) {
   .l-cols .l-col-left {
@@ -820,13 +824,16 @@
   .footer {
     width: 640px;
     box-shadow: none;
-    background: linear-gradient(180deg, #58616c 35.47%, #4e545e 88.18%, #4b515a 100%);
-    margin-top: 83px; }
+    background: none;
+    margin-top: 83px;
+    padding: 0; }
     .footer .footer__widgets {
       float: none;
       position: relative;
       width: 100%;
-      margin-bottom: 26px; }
+      margin-bottom: 0;
+      padding: 18px 19px 26px;
+      background: linear-gradient(180deg, #58616c 35.47%, #4e545e 88.18%, #4b515a 100%); }
       .footer .footer__widgets:after {
         content: "";
         display: block;
@@ -858,7 +865,7 @@
     .footer .footer__newspaper {
       position: absolute;
       left: 200px;
-      top: 0;
+      top: 18px;
       padding: 0; }
       .footer .footer__newspaper a {
         font-family: Arial, serif;
@@ -867,7 +874,7 @@
     .footer .footer__soc {
       position: absolute;
       left: 200px;
-      top: 20px;
+      top: 38px;
       border-bottom: 0;
       width: auto;
       margin: 0;
@@ -947,7 +954,20 @@
       font-size: 12px;
       line-height: 14px;
       color: #9EADC2; }
-    .footer .footer__counters, .footer .footer__news, .footer .calendar {
+    .footer .footer__counters {
+      width: 640px;
+      margin: 0;
+      padding: 0 19px;
+      background-color: #4b515a;
+      border-radius: 0;
+      padding-bottom: 20px; }
+      .footer .footer__counters:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
+    .footer .footer__news, .footer .calendar {
       display: none; } }
 
 /*# sourceMappingURL=style.css.map */
