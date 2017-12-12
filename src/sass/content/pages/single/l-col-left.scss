@@ -188,6 +188,222 @@
 				background: none;
 			}
 			
+			.related__title div {
+				//color: #e40000;
+				//font-size: 16px;
+				//font-weight: bold;
+				//font-family : Arial;
+				font-size : 16px;
+				line-height : 21px;
+				color : #DA0800;
+			}
+			
+			.related__title a {
+				//color: #40454c;
+				//font-weight: bold;
+				//text-decoration: none;
+				//float: left;
+				//margin: 10px 0 0 0;
+				//clear: both;
+				font-size : 12px;
+				line-height : 21px;
+				color : #60646B;
+			}
+			
+			.related__main ul {
+				float:none;
+				margin-right: 0;
+				width: 100%;
+			}
+			
+			.related__main span {
+				//color: #78838f;
+				//display: block;
+				font-size : 12px;
+				line-height : 18px;
+				color : #9AA0AB;
+			}
+			
+			.related__main a {
+				//color: #000;
+				//text-decoration: none;
+				font-size : 14px;
+				line-height : 18px;
+				color : #1A5CA6;
+			}
+			
+			.related__main li {
+				margin-bottom: 8px;
+			}
+			
+			.com-counter {
+				//font-size: 21px;
+				//font-weight: bold;
+				height: 30px;
+				//text-transform: uppercase;
+				//color: #40454c;
+				//font-family: Tahoma, Arial, Helvetica, sans-serif;
+				margin: 0 0 11px 0;
+				background: none;
+				//background-color: #ffffff;
+				font-family : Arial;
+				font-weight: 400;
+				font-size : 24px;
+				line-height : 21px;
+				color : #40454D;
+				border-bottom: 1px solid #D1D1D1;
+			}
+			
+			.com-counter span {
+				//position: relative;
+				//top: -2px;
+				//padding: 1px 4px;
+				//color: #fff;
+				//font-size: 16px;
+				//font-weight: bold;
+				//background: #ff0402;
+				//border-radius: 2px;
+				display: none!important;
+			}
+			
+			.add-comment {
+				border: none;
+				padding: 0;
+				//position: relative;
+				margin-bottom: 10px;
+				background: #ffffff;
+				background-image: none;
+			}
+			
+			.add-comment__title {
+				//position: relative;
+				//font-family: Tahoma, Arial, Helvetica, sans-serif;
+				//font-weight: bold;
+				//display: block;
+				//padding-bottom: 10px;
+				//font-size: 18px;
+				//color: #40454c;
+				font-family : Arial;
+				font-size : 16px;
+				line-height : 21px;
+				color : #60646B;
+			}
+			
+			.add-comment textarea {
+				//margin-bottom: 10px;
+				width: 100%;
+				border-style : Solid;
+				border-color : #BEC5CD;
+				border-width : 1px;
+				border-radius : 3px;
+				margin-bottom: 0;
+				//border: 1px solid #7f7f7f;
+				//background: #fff;
+				//font-size: 14px;
+				//color: #000;
+				//width: 204px;
+				//padding: 4px 9px 5px 9px;
+				box-shadow: none;
+				font-size : 13px;
+				line-height : 16px;
+				color : #40454D;
+				//font-family: Tahoma, Arial, sans-serif;
+			}
+			
+			.comment__user-img {
+				//float: left;
+				//width: 50px;
+				//height: 50px;
+				//overflow: hidden;
+				box-shadow: none;
+			}
+			
+			.comment__info {
+				margin-bottom: 2px;
+				a {
+					display: inline-block;
+					font-family : Arial;
+					font-weight : bold;
+					font-size : 14px;
+					line-height : 18px;
+					color : #1A5CA6;
+					margin-right: 5px;
+				}
+				
+				&:after {
+					content: "";
+					display: block;
+					height: 0;
+					clear: both;
+					visibility: hidden;
+				}
+			}
+			
+			.comment__date {
+				//display: block;
+				//font-size: 11px;
+				//color: #989898;
+				display: inline-block;
+				font-family : Arial;
+				font-size : 12px;
+				line-height : 16px;
+				color : #B3B3B3;
+			}
+			
+			.comment__text {
+				p{
+					font-family : Arial;
+					font-size : 12px;
+					line-height : 16px;
+					color : #40454D;
+				}
+			}
+			
+			.comment li ul li, .media-cont .comment li ul li {
+				background: #ffffff;
+				//margin: 15px 0 0 60px;
+				//padding: 10px 0 10px 10px;
+				//border-bottom: none;
+			}
+			
+			.comment {
+					&:last-of-type {
+					& >	li {
+						border-bottom: none;
+						padding-bottom: 0;
+					}
+					}
+			}
+			
+			
+			.article-categ {
+				//padding-bottom: 4px;
+				//font-size: 21px;
+				//font: normal 21px Tahoma, Arial, sans-serif;
+				border-bottom: 1px solid #D1D1D1;
+				//min-height: 25px;
+				margin-bottom: 3px;
+			}
+			
+			.article-categ a {
+				//color: #40454c;
+				//text-decoration: none;
+				font-family : Arial;
+				font-size : 24px;
+				line-height : 21px;
+				color : #40454D;
+			}
+			
+			.article_small p {
+				//font-size: 12px;
+				//line-height: 1.4;
+				display: none;
+			}
+			
+			.article_small img {
+				width: 128px;
+				height: 85px;
+			}
 			
 		
 		}
