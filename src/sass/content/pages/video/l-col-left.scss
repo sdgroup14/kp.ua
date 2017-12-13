@@ -1,0 +1,128 @@
+@media all and (max-width: 1050px) {
+	
+	.l-cols {
+		&.l-cols_media {
+			//padding: 0 20px 20px 20px;
+			background: transparent;
+			box-shadow: none;
+			
+			.l-col-left {
+				
+				.media-title {
+					padding: 0;
+					//margin: 0 0 13px 0;
+					//color: #fff;
+					border-bottom: none;
+					//font-weight: bold;
+					//text-transform: uppercase;
+				}
+				
+				.media-title .madia-title_h1 {
+					//display: inline;
+					//font-size: 24px;
+					//color: #fff;
+					//text-decoration: none;
+					//text-transform: uppercase;
+					text-shadow: none;
+					//font-weight: 100;
+					font-family : Arial;
+					font-weight : bold;
+					font-size : 18px;
+					line-height : 25px;
+					color : #000000;
+				}
+				
+				.media-title .madia-title_h2 {
+					//display: inline;
+					//color: #ffb421;
+					//font-weight: normal;
+					//font-size: 24px;
+					//text-transform: none;
+					font-family : Arial;
+					font-weight : bold;
+					font-size : 18px;
+					line-height : 25px;
+					color : #ECA50D;
+				}
+				
+				.media-title span {
+					//position: relative;
+					//top: -3px;
+					//padding: 0 4px;
+					//font-size: 20px;
+					//
+					font-family : Arial;
+					font-weight : bold;
+					font-size : 18px;
+					line-height : 25px;
+					color : #000000;
+				}
+				
+				.videogallery {
+					//margin-bottom: 14px;
+					//padding: 5px 6px 10px 10px;
+					background: #575D66;
+					//color: #f5f5f5;
+					//overflow: hidden;
+					height: 397px;
+					overflow: auto;
+				}
+				
+				.videogallery h2 {
+					margin: 5px 0 7px 0;
+					//color: #ffb421;
+					//font-weight: 100;
+					//font-size: 18px;
+					font-family : Arial;
+					font-size : 17px;
+					line-height : 21px;
+					color : #ECA50D;
+				}
+				
+				.video-preview img {
+					//display: block;
+					width: 110px;
+					height: 83px;
+					box-shadow: none;
+					margin: 0;
+					margin-top: 2px;
+				}
+				
+				.videogallery li {
+					display: block;
+					width: 100%;
+					//overflow: hidden;
+					//margin: 0 16px 25px 0;
+					//vertical-align: top;
+					
+					div {
+						float: left;
+					}
+				}
+				
+				.videogallery a {
+					display: block;
+					float: left;
+					width: 110px;
+					height: 83px;
+					//font-size: 14px;
+					//color: #f5f5f5;
+					//text-decoration: none;
+				}
+				
+				.icon_play {
+					//background: url(https://kp.ua/img/icons-sd1c83eb31a.png) -60px -398px no-repeat;
+					width: 38px;
+					height: 38px;
+					margin: 0;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+				}
+			
+			
+			
+			}
+		}
+	}
+}
