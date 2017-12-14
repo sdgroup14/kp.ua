@@ -1,0 +1,50 @@
+@media all and (max-width: 1050px) {
+	
+	.l-cols {
+		&.l-cols_media {
+			//padding: 0 20px 20px 20px;
+			padding-bottom: 30px;
+			background: transparent;
+			box-shadow: none;
+			
+			.l-col-left {
+				.gallery_rubric {
+					padding: 5px 0 0;
+					
+					ul {
+						padding: 0 6px 0 10px;
+					}
+					
+					.pagin {
+						background: #F5F5F5;
+						padding: 0;
+						height: 36px;
+						
+						a {
+							display: inline-block;
+							font-family : Arial;
+							font-weight : bold;
+							font-size : 14px;
+							height: 36px;
+							line-height : 36px;
+							letter-spacing : 1.4px;
+							color : #575D65;
+							padding: 0 5px;
+							//color : rgb(87, 93, 101);
+							
+							&.active {
+								color: #fff;
+								background: #575D65;
+								border-radius: 0;
+								box-shadow: none;
+							}
+						}
+					}
+					
+				}
+			
+			
+			}
+		}
+	}
+}

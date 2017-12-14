@@ -1,0 +1,117 @@
+@media all and (max-width: 1050px) {
+	
+	.l-cols {
+		&.l-cols_media {
+			//padding: 0 20px 20px 20px;
+			//background: transparent;
+			//box-shadow: none;
+			
+			.l-col-left {
+				.media-title .madia-title_h1 a {
+					//color: #fff;
+					//text-decoration: none;
+					font-family : Arial;
+					font-weight : bold;
+					font-size : 18px;
+					line-height : 25px;
+					color : #000000;
+				}
+				
+				.media-title .madia-title_h2 a {
+					//color: #ffb421;
+					//text-decoration: none;
+					font-family : Arial;
+					font-weight : bold;
+					font-size : 18px;
+					line-height : 25px;
+					color : #ECA50D;
+				}
+				
+				.media-cont h1 {
+					//display: inline;
+					//line-height: 1.2em;
+					//margin-bottom: 7px;
+					font-family : Arial;
+					font-weight : bold;
+					font-size : 18px;
+					line-height : 25px;
+					color : #000000;
+					//color : rgb(0, 0, 0);
+				}
+				
+				.gallery-info {
+					//display: block;
+					//padding: 10px 0 0 0;
+					//font-size: 12px;
+					//font-family: Tahoma, Arial, Helvetica, sans-serif;
+					font-family : Arial;
+					//font-size : 12px;
+					line-height : 16px;
+					color : #000000;
+					//color : rgb(0, 0, 0);
+				}
+				
+				.media-cont .video_cont {
+					background: none;
+					//margin-top: 15px;
+					//padding-bottom: 20px;
+					padding: 0;
+				}
+				
+				.mejs-layer {
+					width: 352px!important;
+					height: 228px!important;
+				}
+				
+				.video__wrap {
+					//position: relative;
+					//margin: 10px 0;
+					box-shadow: none;
+					
+					.mejs-video {
+						height: 228px!important;
+					}
+					
+					video {
+						height: 228px!important;
+					}
+				}
+				
+				.add-comment {
+					display: block!important;
+				}
+				
+				.media-title_mod {
+					//margin: 17px 0 13px 0;
+					//border-bottom: 0;
+					//font-family: Tahoma, Arial, Helvetica, sans-serif;
+					//font-size: 21px;
+					text-shadow: none;
+					font-family : Arial;
+					font-weight : bold;
+					font-size : 18px;
+					line-height : 25px;
+					color : #000000;
+					//color : rgb(0, 0, 0);
+				}
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			}
+		}
+	}
+}
