@@ -410,7 +410,7 @@ div.royalSlider > div.rsContent {visibility: hidden;}
 
 	position: absolute;	
 	cursor: pointer;	
-	background: url('../img/icons-sd1c83eb31a.png');
+	background: url('https://kp.ua/img/icons-sd1c83eb31a.png');
     width: 15px;
     height: 21px;	
 }
@@ -497,7 +497,7 @@ div.royalSlider > div.rsContent {visibility: hidden;}
     left: 50%;
     top: -8px;
     margin-left: -4px; 
-    background: url('../img/icons-sd1c83eb31a.png') 0 -1574px no-repeat; 
+    background: url('https://kp.ua/img/icons-sd1c83eb31a.png') 0 -1574px no-repeat;
     width: 13px; 
     height: 8px;
 }
@@ -541,7 +541,7 @@ div.royalSlider > div.rsContent {visibility: hidden;}
     margin-left: -6px;
     position: absolute;
     cursor: pointer;
-    background: url('../img/icons-sd1c83eb31a.png');
+    background: url('https://kp.ua/img/icons-sd1c83eb31a.png');
     width: 15px;
     height: 25px;
 }
@@ -576,7 +576,7 @@ div.royalSlider > div.rsContent {visibility: hidden;}
 	display: block;
 	width: 32px;
 	height: 32px;
-	background: url('../i/rs-default.png') -5px 0;
+	background: url('https://kp.ua/i/rs-default.png') -5px 0;
 	background-color: #666;
 	background-color: rgba(52,52,52,0.75);
 
@@ -599,7 +599,7 @@ div.royalSlider > div.rsContent {visibility: hidden;}
 .rsDefault .rsPreloader {
 	width:20px;
 	height:20px;
-	background-image:url(../i/preloader_photo-gray.gif);
+	background-image:url(https://kp.ua/i/preloader_photo-gray.gif);
 	left:50%;
 	top:50%;
 	margin-left:-10px;
@@ -726,7 +726,7 @@ div.royalSlider > div.rsContent {visibility: hidden;}
 .rsFullscreen .rsPreloader {
 	width:20px;
 	height:20px;
-	background-image:url(../i/preloader_photo-light.gif);
+	background-image:url(https://kp.ua/i/preloader_photo-light.gif);
 	left:50%;
 	top:50%;
 	margin-left:-10px;
@@ -778,7 +778,7 @@ div.royalSlider > div.rsContent {visibility: hidden;}
 	margin-left: 0px;
 	position: absolute;	
 	cursor: pointer;	
-	background: url('../i/icon-sprite.png');
+	background: url('https://kp.uai/icon-sprite.png');
 	background-color: #666;
 }
 
@@ -818,7 +818,7 @@ div.royalSlider > div.rsContent {visibility: hidden;}
 	margin-left: 0px;
 	position: absolute;	
 	cursor: pointer;	
-	background: url('../i/icon-sprite.png');
+	background: url('https://kp.ua/i/icon-sprite.png');
 	background-color: #c5c5c5;
 }
 

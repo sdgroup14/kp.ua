@@ -881,78 +881,171 @@
                 <span class="gallery-header">
 	                <img src="./1_files/logo-small.png" width="219" height="23"></span>
                 <div id="gallerymain" class="royalSlider rsDefault">
-
-
-
-                        <div class="rsContent" style="">
-                          <img class="rsImg" src="1_files/24311794.jpg" style="">
-                          <a class="" href="javascript:void()"></a>
-                        </div>
-
-
-                        <div class="rsContent">
-                          <img class="rsImg" src="1_files/24311646.jpg" style="">
-                          <a class="" href="javascript:void()"></a>
-                        </div>
-
-
-                        <div class="rsContent">
-                          <img class="rsImg" src="1_files/24311575.jpg" style="">
-                          <a class="" href="javascript:void()"></a>
-                        </div>
-
-
-                        <div class="rsContent">
-                          <img class="rsImg" src="1_files/24311251.jpg" style="">
-                          <a class="" href="javascript:void()"></a>
-                        </div>
-
-
-                    <div class="rsFullscreenBtn">
-                      <div class="rsFullscreenIcn"></div>
-                    </div>
-                    <div class="rsArrow rsArrowLeft rsHidden rsArrowDisabled" style="display: block;">
-                      <div class="rsArrowIcn"></div>
-                    </div>
-                    <div class="rsArrow rsArrowRight rsHidden" style="display: block;">
-                      <div class="rsArrowIcn"></div>
-                    </div>
-
-                  <div class="rsGCaption">
+                  <div class="rsContent">
+                    <a class="rsImg" data-rsbigimg="https://ki.ill.in.ua/m/1200x0/24315892.jpg" href="https://ki.ill.in.ua/m/660x0/24315892.jpg"><img src="https://ki.ill.in.ua/m/100x67/24315892.jpg" alt="" class="rsTmb"></a>
+                    <a class="rsLink" href="javascript:void()"></a>
                     <div class="rsCaption">
                       <div class="photo-day__text">
-                        <span>
-                                    вчера, 18:13
-                        </span> Украинский военнослужащий ходит рядом с деревней Травневе, Украина. Фото: REUTERS/Oleksandr Klymenko
+        <span>
+                                    15&nbsp;декабря, 11:39
+                                </span> Приемная комиссия проводит церемонию завершения строительства Олимпийской деревни в Пхёнчхане, где будут проведены XXIII Зимние Олимпийские игры 2018 года. Пхёнчхан, Южная Корея, 15 декабря 2017 года. Фото: REUTERS / Kim Hong-Ji
                       </div>
                     </div>
                   </div>
-                  <!--<div class="rsNav rsThumbs rsThumbsHor">-->
-                    <!--<div class="rsThumbsContainer" style="transition-property: -webkit-transform; width: 1875px; transition-duration: 0ms;">-->
-                      <!--<div style="margin-right:5px;" class="rsNavItem rsThumb rsNavSelected"><img src="./1_files/24311794(1).jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>-->
-                      <!--<div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24311646(1).jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>-->
-                      <!--<div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24311575(1).jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>-->
-                      <!--<div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24311251(1).jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>-->
-                      <!--<div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24311402.jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>-->
-                      <!--<div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24311087.jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>-->
-                      <!--<div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24310996.jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>-->
-                      <!--<div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24310869.jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>-->
-                      <!--<div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24310784.jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>-->
-                      <!--<div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24310656.jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>-->
-                      <!--<div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24310533.jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>-->
-                      <!--<div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24310423.jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>-->
-                      <!--<div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24310245.jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>-->
-                      <!--<div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24310142.jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>-->
-                      <!--<div style="margin-right:5px;" class="rsNavItem rsThumb"><img src="./1_files/24310051.jpg" alt="" class="rsTmb"><span class="thumbIco"></span></div>-->
-                    <!--</div>-->
-                    <!--<div class="rsThumbsArrow rsThumbsArrowLeft rsThumbsArrowDisabled">-->
-                      <!--<div class="rsThumbsArrowIcn"></div>-->
-                    <!--</div>-->
-                    <!--<div class="rsThumbsArrow rsThumbsArrowRight">-->
-                      <!--<div class="rsThumbsArrowIcn"></div>-->
-                    <!--</div>-->
-                  <!--</div>-->
-                  <div style="clear:both; float: none;"></div>
+                  <div class="rsContent">
+                    <a class="rsImg" data-rsbigimg="https://ki.ill.in.ua/m/1200x0/24315687.jpg" href="https://ki.ill.in.ua/m/660x0/24315687.jpg"><img src="https://ki.ill.in.ua/m/100x67/24315687.jpg" alt="" class="rsTmb"></a>
+                    <a class="rsLink" href="javascript:void()"></a>
+                    <div class="rsCaption">
+                      <div class="photo-day__text">
+        <span>
+                                    14&nbsp;декабря, 12:27
+                                </span> Индуистские священники стоят в очереди, чтобы отдать свои голоса на избирательном участке во время последней фазы выборов в законодательное собрание штата Гуджарат. Предместье в Ахмадабаде, Индия, 14 декабря 2017 года. REUTERS / Amit Dave
+                      </div>
+                    </div>
+                  </div>
+                  <div class="rsContent">
+                    <a class="rsImg" data-rsbigimg="https://ki.ill.in.ua/m/1200x0/24315433.jpg" href="https://ki.ill.in.ua/m/660x0/24315433.jpg"><img src="https://ki.ill.in.ua/m/100x67/24315433.jpg" alt="" class="rsTmb"></a>
+                    <a class="rsLink" href="javascript:void()"></a>
+                    <div class="rsCaption">
+                      <div class="photo-day__text">
+        <span>
+                                    13&nbsp;декабря, 12:52
+                                </span> Папа Римский Франциск позирует с танцорами из Южной Америки во время общей аудиенции в покоях Павла VI в Ватикане 13 декабря 2017 года. Фото: REUTERS / Tony Gentile
+                      </div>
+                    </div>
+                  </div>
+                  <div class="rsContent">
+                    <a class="rsImg" data-rsbigimg="https://ki.ill.in.ua/m/1200x0/24315244.jpg" href="https://ki.ill.in.ua/m/660x0/24315244.jpg"><img src="https://ki.ill.in.ua/m/100x67/24315244.jpg" alt="" class="rsTmb"></a>
+                    <a class="rsLink" href="javascript:void()"></a>
+                    <div class="rsCaption">
+                      <div class="photo-day__text">
+        <span>
+                                    12&nbsp;декабря, 15:59
+                                </span> В Индии выпал снег. Мальчик прыгает во время снегопада в городе Тангмарг, в Кашмире 12 декабря 2017 года.Фото: REUTERS
+                      </div>
+                    </div>
+                  </div>
+                  <div class="rsContent">
+                    <a class="rsImg" data-rsbigimg="https://ki.ill.in.ua/m/1200x0/24315122.jpg" href="https://ki.ill.in.ua/m/660x0/24315122.jpg"><img src="https://ki.ill.in.ua/m/100x67/24315122.jpg" alt="" class="rsTmb"></a>
+                    <a class="rsLink" href="javascript:void()"></a>
+                    <div class="rsCaption">
+                      <div class="photo-day__text">
+        <span>
+                                    11&nbsp;декабря, 22:54
+                                </span> Печерский суд освободил Саакашвили. Под зданием политика ждали его сторонники. Вместе с ними Саакашвили направился под Верховную Раду, где размещаются протестующие. Фото: Олег ТЕРЕЩЕНКО
+                      </div>
+                    </div>
+                  </div>
+                  <div class="rsContent">
+                    <a class="rsImg" data-rsbigimg="https://ki.ill.in.ua/m/1200x0/24315021.jpg" href="https://ki.ill.in.ua/m/660x0/24315021.jpg"><img src="https://ki.ill.in.ua/m/100x67/24315021.jpg" alt="" class="rsTmb"></a>
+                    <a class="rsLink" href="javascript:void()"></a>
+                    <div class="rsCaption">
+                      <div class="photo-day__text">
+        <span>
+                                    11&nbsp;декабря, 14:20
+                                </span> В Печерском районном суде города Киева началось заседание по избранию меры пресечения Михаилу Саакашвили. Сторона обвинения будет требовать назначить круглосуточный домашний арест по адресу: ул. Костельная, 7, кв. 32, сроком на два месяца.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="rsContent">
+                    <a class="rsImg" data-rsbigimg="https://ki.ill.in.ua/m/1200x0/24314652.jpg" href="https://ki.ill.in.ua/m/660x0/24314652.jpg"><img src="https://ki.ill.in.ua/m/100x67/24314652.jpg" alt="" class="rsTmb"></a>
+                    <a class="rsLink" href="javascript:void()"></a>
+                    <div class="rsCaption">
+                      <div class="photo-day__text">
+        <span>
+                                    8&nbsp;декабря, 16:29
+                                </span> В Киеве открылась резиденция Святого Николая. Фото: Олег Терещенко
+                      </div>
+                    </div>
+                  </div>
+                  <div class="rsContent">
+                    <a class="rsImg" data-rsbigimg="https://ki.ill.in.ua/m/1200x0/24314398.jpg" href="https://ki.ill.in.ua/m/660x0/24314398.jpg"><img src="https://ki.ill.in.ua/m/100x67/24314398.jpg" alt="" class="rsTmb"></a>
+                    <a class="rsLink" href="javascript:void()"></a>
+                    <div class="rsCaption">
+                      <div class="photo-day__text">
+        <span>
+                                    7&nbsp;декабря, 15:13
+                                </span> Палестинские протестующие бегут во время столкновений с израильскими войсками в знак протеста против решения президента США Дональда Трампа признать Иерусалим столицей Израиля, возле еврейского поселения Бейт-Эль, недалеко от города Рамаллах на Западном берегу реки Иордан Фото REUTERS
+                      </div>
+                    </div>
+                  </div>
+                  <div class="rsContent">
+                    <a class="rsImg" data-rsbigimg="https://ki.ill.in.ua/m/1200x0/24314313.jpg" href="https://ki.ill.in.ua/m/660x0/24314313.jpg"><img src="https://ki.ill.in.ua/m/100x67/24314313.jpg" alt="" class="rsTmb"></a>
+                    <a class="rsLink" href="javascript:void()"></a>
+                    <div class="rsCaption">
+                      <div class="photo-day__text">
+        <span>
+                                    7&nbsp;декабря, 07:49
+                                </span> Сказал - сделал: Паулу Фонсека в честь выхода Шахтера из группы ЛЧ надел костюм Зорро. Фото: Павел ДАЦКОВСКИЙ
+                      </div>
+                    </div>
+                  </div>
+                  <div class="rsContent">
+                    <a class="rsImg" data-rsbigimg="https://ki.ill.in.ua/m/1200x0/24314088.jpg" href="https://ki.ill.in.ua/m/660x0/24314088.jpg"><img src="https://ki.ill.in.ua/m/100x67/24314088.jpg" alt="" class="rsTmb"></a>
+                    <a class="rsLink" href="javascript:void()"></a>
+                    <div class="rsCaption">
+                      <div class="photo-day__text">
+        <span>
+                                    6&nbsp;декабря, 13:27
+                                </span> На Софийскую площадь привезли Главную ёлку страны, опозданием на два дня из-за снежных заносов на западе Украины. Фото: Олег Терещенко
+                      </div>
+                    </div>
+                  </div>
+                  <div class="rsContent">
+                    <a class="rsImg" data-rsbigimg="https://ki.ill.in.ua/m/1200x0/24314011.jpg" href="https://ki.ill.in.ua/m/660x0/24314011.jpg"><img src="https://ki.ill.in.ua/m/100x67/24314011.jpg" alt="" class="rsTmb"></a>
+                    <a class="rsLink" href="javascript:void()"></a>
+                    <div class="rsCaption">
+                      <div class="photo-day__text">
+        <span>
+                                    6&nbsp;декабря, 08:59
+                                </span> Михаил Саакашвили утром в палаточном городке возле Верховной Рады
+                      </div>
+                    </div>
+                  </div>
+                  <div class="rsContent">
+                    <a class="rsImg" data-rsbigimg="https://ki.ill.in.ua/m/1200x0/24313662.jpg" href="https://ki.ill.in.ua/m/660x0/24313662.jpg"><img src="https://ki.ill.in.ua/m/100x67/24313662.jpg" alt="" class="rsTmb"></a>
+                    <a class="rsLink" href="javascript:void()"></a>
+                    <div class="rsCaption">
+                      <div class="photo-day__text">
+        <span>
+                                    5&nbsp;декабря, 10:50
+                                </span> Утром, 5 декабря, ГПУ и СБУ задержали Михаила Саакашвили. Его вывели из подъезда в наручниках. Политика подозревают в содействии участникам преступных организаций и сокрытии их преступной деятельности. Фото: REUTERS
+                      </div>
+                    </div>
+                  </div>
+                  <div class="rsContent">
+                    <a class="rsImg" data-rsbigimg="https://ki.ill.in.ua/m/1200x0/24313387.jpg" href="https://ki.ill.in.ua/m/660x0/24313387.jpg"><img src="https://ki.ill.in.ua/m/100x67/24313387.jpg" alt="" class="rsTmb"></a>
+                    <a class="rsLink" href="javascript:void()"></a>
+                    <div class="rsCaption">
+                      <div class="photo-day__text">
+        <span>
+                                    3&nbsp;декабря, 16:02
+                                </span> Марш за импичмент президента. Участник марша бросает под ноги транспаранты с изображением президента возле Администрации Президента на улице Банковой
+                      </div>
+                    </div>
+                  </div>
+                  <div class="rsContent">
+                    <a class="rsImg" data-rsbigimg="https://ki.ill.in.ua/m/1200x0/24312885.jpg" href="https://ki.ill.in.ua/m/660x0/24312885.jpg"><img src="https://ki.ill.in.ua/m/100x67/24312885.jpg" alt="" class="rsTmb"></a>
+                    <a class="rsLink" href="javascript:void()"></a>
+                    <div class="rsCaption">
+                      <div class="photo-day__text">
+        <span>
+                                    30&nbsp;ноября, 13:31
+                                </span> В Киеве открыли первый в Украине «памятник» Ждуну. Фото: Оскар Янсонс
+                      </div>
+                    </div>
+                  </div>
+                  <div class="rsContent">
+                    <a class="rsImg" data-rsbigimg="https://ki.ill.in.ua/m/1200x0/24312729.jpg" href="https://ki.ill.in.ua/m/660x0/24312729.jpg"><img src="https://ki.ill.in.ua/m/100x67/24312729.jpg" alt="" class="rsTmb"></a>
+                    <a class="rsLink" href="javascript:void()"></a>
+                    <div class="rsCaption">
+                      <div class="photo-day__text">
+        <span>
+                                    29&nbsp;ноября, 20:13
+                                </span> В Киеве прошло факельное шествие. Фото: Олег Терещенко
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="gallery gallery_other" id="_1_17">

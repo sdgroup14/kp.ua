@@ -297,6 +297,8 @@
 		
 		img.rsImg {
 			max-width: 352px;
+			width: 100%!important;
+			margin-left: 0!important;
 			margin-top: 0 !important;
 			height: 233px !important;
 		}
@@ -553,7 +555,7 @@
 			display: none;
 		}
 		.rsGCaption {
-			display: none;
+			//display: none;
 		}
 		
 		.rsNav {
